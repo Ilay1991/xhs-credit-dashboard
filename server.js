@@ -7,6 +7,7 @@ import { collectNoteComments, collectTopNotes, openLoginBrowser } from "./lib/co
 import { analyzeNotes } from "./lib/analyzer.js";
 import { generateDraft, generateRewrite } from "./lib/generator.js";
 import { scheduleDaily } from "./lib/scheduler.js";
+import { cacheNoteCovers } from "./lib/cover-cache.js";
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const store = new Store(path.join(root, "data", "store.json"));
@@ -64,7 +65,7 @@ async function runCollection({ headless = false } = {}) {
     }
     const data = await store.read();
     const collectedGroups = await collectTopNotes({ keywords: data.settings.keywords, profilePath, headless });
-    const groups = backfillGroups(collectedGroups, data.runs);
+    const groups = await cacheNoteCovers(backfillGroups(collectedGroups, data.runs), path.join(root, "public"));
     const notes = groups.flatMap((group) => group.notes.map((note, index) => ({ ...note, keyword: group.keyword, rank: index + 1 })));
     const run = {
       id: crypto.randomUUID(),

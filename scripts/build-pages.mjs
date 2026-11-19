@@ -11,5 +11,7 @@ try {
 }
 await fs.mkdir(path.join(root, "docs"), { recursive: true });
 await fs.copyFile(path.join(root, "public", "爆款分析工作台.html"), path.join(root, "docs", "index.html"));
+await fs.rm(path.join(root, "docs", "note-covers"), { recursive: true, force: true });
+await fs.cp(path.join(root, "public", "note-covers"), path.join(root, "docs", "note-covers"), { recursive: true });
 await fs.writeFile(path.join(root, "docs", ".nojekyll"), "");
 console.log("GitHub Pages snapshot built");

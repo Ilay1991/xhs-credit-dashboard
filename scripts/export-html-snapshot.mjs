@@ -14,6 +14,13 @@ const [index, styles, appSource, features, stateText] = await Promise.all([
 ]);
 
 const state = JSON.parse(stateText);
+for (const run of state.runs || []) {
+  for (const group of run.groups || []) {
+    for (const note of group.notes || []) {
+      if (note.cover?.startsWith('/note-covers/')) note.cover = `.${note.cover}`;
+    }
+  }
+}
 const snapshot = {
   running: false,
   runs: state.runs || [],
