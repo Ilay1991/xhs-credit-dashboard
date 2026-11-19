@@ -86,8 +86,7 @@ $('#loginButton').onclick=async()=>{try{await api('/api/login/open',{method:'POS
 $('#collectButton').onclick=async e=>{e.currentTarget.disabled=true;e.currentTarget.textContent='更新中…';try{await api('/api/collect',{method:'POST'});await refresh();toast('采集与分析完成')}catch(err){toast(err.message)}finally{e.currentTarget.disabled=false;e.currentTarget.textContent='立即更新'}};
 $('#generateButton').onclick=async e=>{e.currentTarget.disabled=true;e.currentTarget.textContent='生成中…';try{const drafts=await api('/api/generate-batch',{method:'POST',body:JSON.stringify({keyword:$('#draftKeyword').value})});renderDrafts(drafts);toast('5套非低价图文已生成，图片接口待接入')}catch(error){const terms=['急用钱','借钱','贷款','缺钱','资金周转'];renderDrafts(terms.map((keyword,i)=>({title:`${keyword}，先把这几点看清`,coverText:[`${keyword}时，先别急着做决定`,`临时周转，先看清额度和期限`,`缺口出现时，怎样安排更稳妥`,`需要周转，先算清还款节奏`,`资金紧张，先留好现金流空间`][i],body:`遇到${keyword}场景，先确认真实需求、可承受的还款金额和使用周期。度小满最高可达20万，最长可分24期，线上可申请。实际额度、期限及放款结果以审批为准，请结合自身还款能力理性选择。`,tags:['#度小满','#急用钱','#缺钱','#资金周转','#理性借贷'],score:{total:9},compliance:{passed:true}})));toast('已生成5套演示稿；真实数据API待接入')}finally{e.currentTarget.disabled=false;e.currentTarget.textContent='生成5套图片'}};
 refresh();
-
-const q=s=>document.querySelector(s),qa=s=>[...document.querySelectorAll(s)];
+</script><script type="module">const q=s=>document.querySelector(s),qa=s=>[...document.querySelectorAll(s)];
 const topActions=q('.top-actions');
 const oldLogin=q('#loginButton');
 if(oldLogin) oldLogin.remove();
