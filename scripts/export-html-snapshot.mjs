@@ -26,9 +26,10 @@ const offlineApi = `async function api(path,opt={}){
 }`;
 const app = appSource.replace(/async function api\(path,opt=\{\}\)\{.*?return b\}/s, offlineApi);
 
+const embeddedScripts = `<script>window.__SNAPSHOT_STATE__=${JSON.stringify(snapshot).replace(/<\/script/gi, '<\\/script')};</script><script type="module">${app}</script><script type="module">${features}</script>`;
 let html = index
-  .replace('<link rel="stylesheet" href="/styles.css">', `<style>${styles}</style>`)
-  .replace('<script type="module" src="/app.js"></script><script type="module" src="/features.js"></script>', `<script>window.__SNAPSHOT_STATE__=${JSON.stringify(snapshot).replace(/<\/script/gi, '<\\/script')};</script><script type="module">${app}</script><script type="module">${features}</script>`)
+  .replace('<link rel="stylesheet" href="/styles.css">', () => `<style>${styles}</style>`)
+  .replace('<script type="module" src="/app.js"></script><script type="module" src="/features.js"></script>', () => embeddedScripts)
   .replace('每日 10:00 自动更新', '离线快照 · 下载后可直接打开')
   .replace('立即更新</button>', '在线版更新</button>');
 
