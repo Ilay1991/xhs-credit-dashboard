@@ -1,0 +1,506 @@
+browserType.launchPersistentContext: Failed to create a ProcessSingleton for your profile directory. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank
+  - <launched> pid=12632
+  - [pid=12632][err] [12632:2016162:1021/155638.858167:ERROR:chrome/browser/process_singleton_posix.cc:347] Failed to create /Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile/SingletonLock: File exists (17)
+  - [pid=12632][err] [12632:2016162:1021/155638.858757:ERROR:chrome/app/chrome_main_delegate.cc:569] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
+  - [pid=12632] <gracefully close start>
+  - [pid=12632] <kill>
+  - [pid=12632] <will force kill>
+  - [pid=12632] exception while trying to kill process: Error: kill ESRCH
+  - [pid=12632] <process did exit: exitCode=21, signal=null>
+  - [pid=12632] starting temporary directories cleanup
+  - [pid=12632] finished temporary directories cleanup
+  - [pid=12632] <gracefully close end>
+
+    at async collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:25:19)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:25:20)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:59:23 {
+  log: [
+    '  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank',
+    '  - <launched> pid=12632',
+    '  - [pid=12632][err] [12632:2016162:1021/155638.858167:ERROR:chrome/browser/process_singleton_posix.cc:347] Failed to create /Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile/SingletonLock: File exists (17)',
+    '  - [pid=12632][err] [12632:2016162:1021/155638.858757:ERROR:chrome/app/chrome_main_delegate.cc:569] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.',
+    '  - [pid=12632] <gracefully close start>',
+    '  - [pid=12632] <kill>',
+    '  - [pid=12632] <will force kill>',
+    '  - [pid=12632] exception while trying to kill process: Error: kill ESRCH',
+    '  - [pid=12632] <process did exit: exitCode=21, signal=null>',
+    '  - [pid=12632] starting temporary directories cleanup',
+    '  - [pid=12632] finished temporary directories cleanup',
+    '  - [pid=12632] <gracefully close end>'
+  ]
+}
+browserType.launchPersistentContext: Failed to create a ProcessSingleton for your profile directory. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank
+  - <launched> pid=13869
+  - [pid=13869][err] [13869:2022076:1021/155729.053525:ERROR:chrome/browser/process_singleton_posix.cc:347] Failed to create /Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile/SingletonLock: File exists (17)
+  - [pid=13869][err] [13869:2022076:1021/155729.057316:ERROR:chrome/app/chrome_main_delegate.cc:569] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
+  - [pid=13869] <gracefully close start>
+  - [pid=13869] <kill>
+  - [pid=13869] <will force kill>
+  - [pid=13869] exception while trying to kill process: Error: kill ESRCH
+  - [pid=13869] <process did exit: exitCode=21, signal=null>
+  - [pid=13869] starting temporary directories cleanup
+  - [pid=13869] finished temporary directories cleanup
+  - [pid=13869] <gracefully close end>
+
+    at async collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:25:19)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:25:20)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:59:23 {
+  log: [
+    '  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank',
+    '  - <launched> pid=13869',
+    '  - [pid=13869][err] [13869:2022076:1021/155729.053525:ERROR:chrome/browser/process_singleton_posix.cc:347] Failed to create /Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile/SingletonLock: File exists (17)',
+    '  - [pid=13869][err] [13869:2022076:1021/155729.057316:ERROR:chrome/app/chrome_main_delegate.cc:569] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.',
+    '  - [pid=13869] <gracefully close start>',
+    '  - [pid=13869] <kill>',
+    '  - [pid=13869] <will force kill>',
+    '  - [pid=13869] exception while trying to kill process: Error: kill ESRCH',
+    '  - [pid=13869] <process did exit: exitCode=21, signal=null>',
+    '  - [pid=13869] starting temporary directories cleanup',
+    '  - [pid=13869] finished temporary directories cleanup',
+    '  - [pid=13869] <gracefully close end>'
+  ]
+}
+page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.xiaohongshu.com/search_result?keyword=%E5%80%9F%E9%92%B1&source=web_search_result_notes", waiting until "domcontentloaded"
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:33:18)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:64:23 {
+  log: [
+    '  - navigating to "https://www.xiaohongshu.com/search_result?keyword=%E5%80%9F%E9%92%B1&source=web_search_result_notes", waiting until "domcontentloaded"'
+  ],
+  name: 'TimeoutError'
+}
+page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.xiaohongshu.com/search_result?keyword=%E5%80%9F%E9%92%B1&source=web_search_result_notes", waiting until "commit"
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:33:18)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:64:23 {
+  log: [
+    '  - navigating to "https://www.xiaohongshu.com/search_result?keyword=%E5%80%9F%E9%92%B1&source=web_search_result_notes", waiting until "commit"'
+  ],
+  name: 'TimeoutError'
+}
+page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.xiaohongshu.com/search_result?keyword=%E5%80%9F%E9%92%B1&source=web_search_result_notes", waiting until "commit"
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:33:18)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:64:23 {
+  log: [
+    '  - navigating to "https://www.xiaohongshu.com/search_result?keyword=%E5%80%9F%E9%92%B1&source=web_search_result_notes", waiting until "commit"'
+  ],
+  name: 'TimeoutError'
+}
+locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input.search-input, input[placeholder*="搜索"], input[type="search"]').first() to be visible
+    4 × locator resolved to hidden <input value="" type="text" id="search-input" spellcheck="false" autocomplete="off" data-v-4439d232="" placeholder="搜索小红书" class="search-input"/>
+    56 × locator resolved to hidden <input value="" type="text" id="search-input" spellcheck="false" autocomplete="off" data-v-4439d232="" placeholder="与电影夜奔" class="search-input"/>
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:34:20)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:64:23 {
+  log: [
+    `  - waiting for locator('input.search-input, input[placeholder*="搜索"], input[type="search"]').first() to be visible`,
+    '    4 × locator resolved to hidden <input value="" type="text" id="search-input" spellcheck="false" autocomplete="off" data-v-4439d232="" placeholder="搜索小红书" class="search-input"/>',
+    '    56 × locator resolved to hidden <input value="" type="text" id="search-input" spellcheck="false" autocomplete="off" data-v-4439d232="" placeholder="与电影夜奔" class="search-input"/>'
+  ],
+  name: 'TimeoutError'
+}
+Scheduled collection failed: Error: 搜索结果重复，采集到的是推荐流而非关键词结果，本次数据未保存
+    at runCollection (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:33:13)
+    at async execute (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25
+Scheduled collection failed: page.evaluate: Target page, context or browser has been closed
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:57:37)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: []
+}
+[2026-10-24T03:00:15.122Z] [PID: 1363] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Sat Oct 24 2026 11:00:00 GMT+0800 (China Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-10-25T03:10:13.975Z] [PID: 1363] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Sun Oct 25 2026 11:00:00 GMT+0800 (China Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-10-26T03:01:37.641Z] [PID: 1363] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Mon Oct 26 2026 11:00:00 GMT+0800 (China Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+Scheduled collection failed: page.waitForTimeout: Target page, context or browser has been closed
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:56:24)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: []
+}
+Scheduled collection failed: Error: 搜索结果重复，采集到的是推荐流而非关键词结果，本次数据未保存
+    at runCollection (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:33:13)
+    at async execute (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25
+Scheduled collection failed: locator.waitFor: Target page, context or browser has been closed
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:34:20)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: []
+}
+Scheduled collection failed: page.waitForTimeout: Target page, context or browser has been closed
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:37:18)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: []
+}
+[2026-10-31T03:16:42.869Z] [PID: 1041] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Sat Oct 31 2026 11:00:00 GMT+0800 (China Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-11-01T03:04:03.169Z] [PID: 1041] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Sun Nov 01 2026 11:00:00 GMT+0800 (China Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+Scheduled collection failed: page.waitForTimeout: Target page, context or browser has been closed
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:37:18)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: []
+}
+Scheduled collection failed: page.waitForTimeout: Target page, context or browser has been closed
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:56:24)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: []
+}
+Scheduled collection failed: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.xiaohongshu.com/explore", waiting until "domcontentloaded"
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:31:16)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: [
+    '  - navigating to "https://www.xiaohongshu.com/explore", waiting until "domcontentloaded"'
+  ]
+}
+Scheduled collection failed: Error: 登录状态失效，请在网页中点击“打开登录窗口”重新登录
+    at collectTopNotes (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:40:33)
+    at async runCollection (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25
+Scheduled collection failed: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('input.search-input, input[placeholder*="搜索"], input[type="search"]').first()
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:34:20)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: [
+    `  - waiting for locator('input.search-input, input[placeholder*="搜索"], input[type="search"]').first()`
+  ]
+}
+[2026-11-07T03:25:53.263Z] [PID: 2926] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Sat Nov 07 2026 11:00:00 GMT+0800 (China Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-11-08T03:13:56.797Z] [PID: 2926] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Sun Nov 08 2026 11:00:00 GMT+0800 (China Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+Scheduled collection failed: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.xiaohongshu.com/explore", waiting until "domcontentloaded"
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:31:16)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: [
+    '  - navigating to "https://www.xiaohongshu.com/explore", waiting until "domcontentloaded"'
+  ]
+}
+Scheduled collection failed: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.xiaohongshu.com/explore", waiting until "domcontentloaded"
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:31:16)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: [
+    '  - navigating to "https://www.xiaohongshu.com/explore", waiting until "domcontentloaded"'
+  ]
+}
+Scheduled collection failed: Error: 登录状态失效，请在网页中点击“打开登录窗口”重新登录
+    at collectTopNotes (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:40:33)
+    at async runCollection (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25
+Scheduled collection failed: Error: 登录状态失效，请在网页中点击“打开登录窗口”重新登录
+    at collectTopNotes (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:40:33)
+    at async runCollection (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25
+Scheduled collection failed: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.xiaohongshu.com/explore", waiting until "domcontentloaded"
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:31:16)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: [
+    '  - navigating to "https://www.xiaohongshu.com/explore", waiting until "domcontentloaded"'
+  ]
+}
+[2026-11-14T03:08:57.338Z] [PID: 834] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Sat Nov 14 2026 11:00:00 GMT+0800 (China Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+Scheduled collection failed: Error: 登录状态失效，请在网页中点击“打开登录窗口”重新登录
+    at collectTopNotes (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:40:33)
+    at async runCollection (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25
+Scheduled collection failed: locator.press: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('input.search-input, input[placeholder*="搜索"], input[type="search"]').first()
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:36:20)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: [
+    `  - waiting for locator('input.search-input, input[placeholder*="搜索"], input[type="search"]').first()`
+  ]
+}
+Scheduled collection failed: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('input.search-input, input[placeholder*="搜索"], input[type="search"]').first()
+
+    at collectTopNotes (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:34:20)
+    at async runCollection (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25 {
+  log: [
+    `  - waiting for locator('input.search-input, input[placeholder*="搜索"], input[type="search"]').first()`
+  ]
+}
+Scheduled collection failed: Error: 登录状态失效，请在网页中点击“打开登录窗口”重新登录
+    at collectTopNotes (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:40:33)
+    at async runCollection (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25
+Scheduled collection failed: Error: 登录状态失效，请在网页中点击“打开登录窗口”重新登录
+    at collectTopNotes (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:40:33)
+    at async runCollection (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:30:20)
+    at async execute (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:270:36)
+    at async runTask (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:307:17)
+    at async Runner.runCoordinated (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:207:13)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/node-cron/dist/_shared.js:329:25
+browserType.launchPersistentContext: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank
+<launched> pid=10580
+[pid=10580][out] 正在现有的浏览器会话中打开。
+Call log:
+  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank
+  - <launched> pid=10580
+  - [pid=10580][out] 正在现有的浏览器会话中打开。
+  - [pid=10580] <gracefully close start>
+  - [pid=10580] <kill>
+  - [pid=10580] <will force kill>
+  - [pid=10580] exception while trying to kill process: Error: kill ESRCH
+  - [pid=10580] <process did exit: exitCode=0, signal=null>
+  - [pid=10580] starting temporary directories cleanup
+  - [pid=10580] finished temporary directories cleanup
+  - [pid=10580] <gracefully close end>
+
+    at async openLoginBrowser (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:17:19)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:59:22 {
+  log: [
+    '  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank',
+    '  - <launched> pid=10580',
+    '  - [pid=10580][out] 正在现有的浏览器会话中打开。',
+    '  - [pid=10580] <gracefully close start>',
+    '  - [pid=10580] <kill>',
+    '  - [pid=10580] <will force kill>',
+    '  - [pid=10580] exception while trying to kill process: Error: kill ESRCH',
+    '  - [pid=10580] <process did exit: exitCode=0, signal=null>',
+    '  - [pid=10580] starting temporary directories cleanup',
+    '  - [pid=10580] finished temporary directories cleanup',
+    '  - [pid=10580] <gracefully close end>'
+  ]
+}
+browserType.launchPersistentContext: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank
+<launched> pid=10611
+[pid=10611][out] 正在现有的浏览器会话中打开。
+Call log:
+  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank
+  - <launched> pid=10611
+  - [pid=10611][out] 正在现有的浏览器会话中打开。
+  - [pid=10611] <gracefully close start>
+  - [pid=10611] <kill>
+  - [pid=10611] <will force kill>
+  - [pid=10611] exception while trying to kill process: Error: kill EPERM
+  - [pid=10611] <process did exit: exitCode=0, signal=null>
+  - [pid=10611] starting temporary directories cleanup
+  - [pid=10611] finished temporary directories cleanup
+  - [pid=10611] <gracefully close end>
+
+    at async openLoginBrowser (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:17:19)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:59:22 {
+  log: [
+    '  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank',
+    '  - <launched> pid=10611',
+    '  - [pid=10611][out] 正在现有的浏览器会话中打开。',
+    '  - [pid=10611] <gracefully close start>',
+    '  - [pid=10611] <kill>',
+    '  - [pid=10611] <will force kill>',
+    '  - [pid=10611] exception while trying to kill process: Error: kill EPERM',
+    '  - [pid=10611] <process did exit: exitCode=0, signal=null>',
+    '  - [pid=10611] starting temporary directories cleanup',
+    '  - [pid=10611] finished temporary directories cleanup',
+    '  - [pid=10611] <gracefully close end>'
+  ]
+}
+browserType.launchPersistentContext: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank
+<launched> pid=10620
+[pid=10620][out] 正在现有的浏览器会话中打开。
+Call log:
+  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank
+  - <launched> pid=10620
+  - [pid=10620][out] 正在现有的浏览器会话中打开。
+  - [pid=10620] <gracefully close start>
+  - [pid=10620] <kill>
+  - [pid=10620] <will force kill>
+  - [pid=10620] exception while trying to kill process: Error: kill EPERM
+  - [pid=10620] <process did exit: exitCode=0, signal=null>
+  - [pid=10620] starting temporary directories cleanup
+  - [pid=10620] finished temporary directories cleanup
+  - [pid=10620] <gracefully close end>
+
+    at async openLoginBrowser (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:17:19)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:59:22 {
+  log: [
+    '  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank',
+    '  - <launched> pid=10620',
+    '  - [pid=10620][out] 正在现有的浏览器会话中打开。',
+    '  - [pid=10620] <gracefully close start>',
+    '  - [pid=10620] <kill>',
+    '  - [pid=10620] <will force kill>',
+    '  - [pid=10620] exception while trying to kill process: Error: kill EPERM',
+    '  - [pid=10620] <process did exit: exitCode=0, signal=null>',
+    '  - [pid=10620] starting temporary directories cleanup',
+    '  - [pid=10620] finished temporary directories cleanup',
+    '  - [pid=10620] <gracefully close end>'
+  ]
+}
+browserType.launchPersistentContext: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank
+<launched> pid=10636
+[pid=10636][out] 正在现有的浏览器会话中打开。
+Call log:
+  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank
+  - <launched> pid=10636
+  - [pid=10636][out] 正在现有的浏览器会话中打开。
+  - [pid=10636] <gracefully close start>
+  - [pid=10636] <kill>
+  - [pid=10636] <will force kill>
+  - [pid=10636] exception while trying to kill process: Error: kill EPERM
+  - [pid=10636] <process did exit: exitCode=0, signal=null>
+  - [pid=10636] starting temporary directories cleanup
+  - [pid=10636] finished temporary directories cleanup
+  - [pid=10636] <gracefully close end>
+
+    at async openLoginBrowser (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:17:19)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:59:22 {
+  log: [
+    '  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/data/browser-profile --remote-debugging-pipe about:blank',
+    '  - <launched> pid=10636',
+    '  - [pid=10636][out] 正在现有的浏览器会话中打开。',
+    '  - [pid=10636] <gracefully close start>',
+    '  - [pid=10636] <kill>',
+    '  - [pid=10636] <will force kill>',
+    '  - [pid=10636] exception while trying to kill process: Error: kill EPERM',
+    '  - [pid=10636] <process did exit: exitCode=0, signal=null>',
+    '  - [pid=10636] starting temporary directories cleanup',
+    '  - [pid=10636] finished temporary directories cleanup',
+    '  - [pid=10636] <gracefully close end>'
+  ]
+}
+Error: 当前已切换为 TikHub API 采集，无需登录小红书
+    at openLoginBrowser (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:76:9)
+    at file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:58:28
+    at Layer.handleRequest (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/lib/layer.js:152:17)
+    at /Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/index.js:295:15
+    at processParams (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/index.js:582:12)
+    at next (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/index.js:291:5)
+Error: 当前已切换为 TikHub API 采集，无需登录小红书
+    at openLoginBrowser (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:76:9)
+    at file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:58:28
+    at Layer.handleRequest (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/lib/layer.js:152:17)
+    at /Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/index.js:295:15
+    at processParams (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/index.js:582:12)
+    at next (/Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/node_modules/router/index.js:291:5)
+Error: TikHub 请求失败：400
+    at tikhub (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:59:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async collectTopNotes (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:90:20)
+    at async runCollection (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:32:20)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:69:23
+Error: [object Object]
+    at tikhub (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:63:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async collectTopNotes (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/lib/collector.js:95:22)
+    at async runCollection (file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:55:29)
+    at async file:///Users/dxm/.lark-channel-workspaces/codex/default/xhs-credit-dashboard/server.js:93:23
