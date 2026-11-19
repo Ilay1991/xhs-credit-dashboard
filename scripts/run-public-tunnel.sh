@@ -7,7 +7,7 @@ CHAT_ID="oc_0c7efaa8ad28cb693396d904cce804fd"
 
 /usr/bin/ssh -T -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -o ServerAliveCountMax=3 -o ExitOnForwardFailure=yes -R 80:127.0.0.1:4173 localhost.run 2>&1 | while IFS= read -r line; do
   print -r -- "$line"
-  url=$(print -r -- "$line" | /usr/bin/grep -Eo 'https://[a-zA-Z0-9.-]+\.(lhr\.life|localhost\.run)' | /usr/bin/head -1)
+  url=$(print -r -- "$line" | /usr/bin/sed -nE 's#.*tunneled with tls termination, (https://[^ ]+).*#\1#p' | /usr/bin/head -1)
   if [[ -n "$url" ]]; then
     old_url=$(cat "$URL_FILE" 2>/dev/null || true)
     if [[ "$url" != "$old_url" ]]; then

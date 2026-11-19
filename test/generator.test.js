@@ -14,4 +14,11 @@ test("rewrite follows each source note instead of one fixed script", () => {
   assert.equal(renovation.sourceTitle, "装修临时缺钱怎么办？");
   assert.match(renovation.adaptation.structure, /原爆款/);
   assert.ok(renovation.adaptation.skillRules.includes("非低价合规"));
+  assert.equal(renovation.compliance.passed, true);
+});
+
+test("competitor keywords are rewritten into a natural credit scene", () => {
+  const result = generateRewrite({ id: "c", keyword: "借呗", title: "热水器坏了，借钱应急周转", body: "家电突然需要换新" });
+  assert.doesNotMatch(result.title, /借呗时/);
+  assert.equal(result.compliance.passed, true);
 });
