@@ -11,4 +11,7 @@ test("rewrite follows each source note instead of one fixed script", () => {
   assert.match(inventory.title, /补货/);
   assert.ok(renovation.coverImages.every((cover) => cover.url.startsWith("data:image/svg+xml")));
   assert.notEqual(renovation.coverImages[0].url, inventory.coverImages[0].url);
+  assert.equal(renovation.sourceTitle, "装修临时缺钱怎么办？");
+  assert.match(renovation.adaptation.structure, /原爆款/);
+  assert.ok(renovation.adaptation.skillRules.includes("非低价合规"));
 });
