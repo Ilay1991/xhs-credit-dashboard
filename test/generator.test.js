@@ -11,10 +11,19 @@ test("rewrite follows each source note instead of one fixed script", () => {
   assert.match(inventory.title, /补货/);
   assert.ok(renovation.coverImages.every((cover) => cover.url.startsWith("data:image/svg+xml")));
   assert.notEqual(renovation.coverImages[0].url, inventory.coverImages[0].url);
+  assert.equal(renovation.coverImages.length, 9);
   assert.equal(renovation.sourceTitle, "装修临时缺钱怎么办？");
   assert.match(renovation.adaptation.structure, /原爆款/);
   assert.ok(renovation.adaptation.skillRules.includes("非低价合规"));
   assert.equal(renovation.compliance.passed, true);
+});
+
+test("rewrite preserves the source scene anchor in title body and covers", () => {
+  const result = generateRewrite({ id: "heater", keyword: "借呗", title: "热水器罢工换新，借钱应急周转慢慢还", body: "家里热水器突然坏了，等不了发工资" });
+  assert.match(result.title, /热水器/);
+  assert.match(result.body, /热水器/);
+  assert.equal(result.adaptation.sourceAnchor, "热水器突然坏了要换新");
+  assert.equal(result.coverImages.length, 9);
 });
 
 test("competitor keywords are rewritten into a natural credit scene", () => {
