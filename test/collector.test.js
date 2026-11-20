@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { dedupeGroups, matchesEditorialRules } from "../lib/collector.js";
+import { dedupeGroups, isHotNote, matchesEditorialRules } from "../lib/collector.js";
 
 test("competitor analysis keeps positive product content", () => {
   assert.equal(matchesEditorialRules({ title: "借呗怎么用？申请条件和分期体验" }, "借呗"), true);
@@ -30,6 +30,12 @@ test("deduplicates notes globally by id and normalized title", () => {
     ] }
   ]);
   assert.deepEqual(groups.map(group => group.notes.map(note => note.id)), [["a"], ["c"]]);
+});
+
+test("requires real viral interaction before selection", () => {
+  assert.equal(isHotNote({ likes: 12, favorites: 3, comments: 1 }), false);
+  assert.equal(isHotNote({ likes: 69, favorites: 87, comments: 0 }), true);
+  assert.equal(isHotNote({ likes: 40, favorites: 180, comments: 100 }), true);
 });
 
 test("search keywords favor borrowing needs and stories", () => {

@@ -1,6 +1,5 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { generateRewrite } from '../lib/generator.js';
 
 const root = path.resolve(import.meta.dirname, '..');
 const publicDir = path.join(root, 'public');
@@ -22,29 +21,16 @@ for (const run of state.runs || []) {
     }
   }
 }
-const snapshotNotes = (state.runs || []).flatMap((run) =>
-  (run.groups || []).flatMap((group) =>
-    (group.notes || []).map((note) => ({ ...note, keyword: note.keyword || group.keyword }))
-  )
-);
-const rewrites = Object.fromEntries(snapshotNotes.filter((note) => note.id).map((note) => [note.id, generateRewrite(note, note.keyword)]));
 const snapshot = {
   running: false,
   runs: state.runs || [],
   drafts: state.drafts || [],
-  rewrites,
 };
 
 const offlineApi = `async function api(path,opt={}){
   if(path==="/api/state") return window.__SNAPSHOT_STATE__;
-  if(path.startsWith("/api/notes/")&&path.endsWith("/rewrite")&&opt.method==="POST"){
-    const noteId=decodeURIComponent(path.slice(11,-8));
-    const rewrite=window.__SNAPSHOT_STATE__.rewrites[noteId];
-    if(rewrite)return rewrite;
-    throw Error("未找到该爆款的仿写结果");
-  }
   if(path.startsWith("/api/notes/")&&path.endsWith("/comments"))return [];
-  throw Error("公开版支持浏览和爆款仿写；数据更新请联系管理员");
+  throw Error("公开版支持浏览和爆款拆解；数据更新请联系管理员");
 }`;
 const app = appSource.replace(/async function api\(path,opt=\{\}\)\{.*?return b\}/s, offlineApi);
 

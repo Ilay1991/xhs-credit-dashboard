@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 import express from "express";
 import compression from "compression";
 import { Store } from "./lib/store.js";
-import { collectNoteComments, collectTopNotes, dedupeGroups, matchesEditorialRules, openLoginBrowser } from "./lib/collector.js";
+import { collectNoteComments, collectTopNotes, dedupeGroups, isHotNote, matchesEditorialRules, openLoginBrowser } from "./lib/collector.js";
 import { analyzeNotes } from "./lib/analyzer.js";
 import { generateDraft, generateRewrite } from "./lib/generator.js";
 import { scheduleDaily } from "./lib/scheduler.js";
@@ -27,7 +27,7 @@ function backfillGroups(groups, historicalRuns) {
         const historicalGroup = run.groups?.find((item) => item.keyword === group.keyword);
         for (const note of historicalGroup?.notes || []) {
           if (selected.length >= MIN_NOTES_PER_GROUP) break;
-          if (!seen.has(note.id) && matchesEditorialRules(note, group.keyword)) {
+          if (!seen.has(note.id) && matchesEditorialRules(note, group.keyword) && isHotNote(note)) {
             selected.push({ ...note, carriedForward: true });
             seen.add(note.id);
           }

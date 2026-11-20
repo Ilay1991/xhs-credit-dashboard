@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { dedupeGroups, matchesEditorialRules } from "../lib/collector.js";
+import { dedupeGroups, isHotNote, matchesEditorialRules } from "../lib/collector.js";
 
 const storePath = path.resolve(import.meta.dirname, "../data/store.json");
 const data = JSON.parse(await fs.readFile(storePath, "utf8"));
@@ -11,7 +11,7 @@ if (!latestRun) throw new Error("没有可清理的采集快照");
 latestRun.groups = dedupeGroups(
   latestRun.groups.map((group) => ({
     ...group,
-    notes: (group.notes || []).filter((note) => matchesEditorialRules(note, group.keyword)),
+    notes: (group.notes || []).filter((note) => matchesEditorialRules(note, group.keyword) && isHotNote(note)),
   })),
 );
 
