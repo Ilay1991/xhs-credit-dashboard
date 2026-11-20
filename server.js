@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 import express from "express";
 import compression from "compression";
 import { Store } from "./lib/store.js";
-import { collectNoteComments, collectTopNotes, openLoginBrowser } from "./lib/collector.js";
+import { collectNoteComments, collectTopNotes, dedupeGroups, matchesEditorialRules, openLoginBrowser } from "./lib/collector.js";
 import { analyzeNotes } from "./lib/analyzer.js";
 import { generateDraft, generateRewrite } from "./lib/generator.js";
 import { scheduleDaily } from "./lib/scheduler.js";
@@ -19,9 +19,7 @@ const MIN_NOTES_PER_GROUP = 2;
 const MAX_NOTES_PER_GROUP = 5;
 
 function backfillGroups(groups, historicalRuns) {
-  const searchKeywords = new Set(["借钱", "急用钱", "贷款", "资金周转"]);
-  const historicalSearchPool = historicalRuns.flatMap((run) => run.groups || []).filter((group) => searchKeywords.has(group.keyword)).flatMap((group) => group.notes || []);
-  return groups.map((group) => {
+  const filled = groups.map((group) => {
     const selected = [...group.notes];
     const seen = new Set(selected.map((note) => note.id));
     if (selected.length < MIN_NOTES_PER_GROUP) {
@@ -29,7 +27,7 @@ function backfillGroups(groups, historicalRuns) {
         const historicalGroup = run.groups?.find((item) => item.keyword === group.keyword);
         for (const note of historicalGroup?.notes || []) {
           if (selected.length >= MIN_NOTES_PER_GROUP) break;
-          if (!seen.has(note.id)) {
+          if (!seen.has(note.id) && matchesEditorialRules(note, group.keyword)) {
             selected.push({ ...note, carriedForward: true });
             seen.add(note.id);
           }
@@ -37,17 +35,9 @@ function backfillGroups(groups, historicalRuns) {
         if (selected.length >= MIN_NOTES_PER_GROUP) break;
       }
     }
-    if (selected.length < MIN_NOTES_PER_GROUP && searchKeywords.has(group.keyword)) {
-      for (const note of historicalSearchPool) {
-        if (selected.length >= MIN_NOTES_PER_GROUP) break;
-        if (!seen.has(note.id)) {
-          selected.push({ ...note, keyword: group.keyword, carriedForward: true });
-          seen.add(note.id);
-        }
-      }
-    }
     return { ...group, notes: selected.slice(0, MAX_NOTES_PER_GROUP) };
   });
+  return dedupeGroups(filled);
 }
 
 app.use(compression());
