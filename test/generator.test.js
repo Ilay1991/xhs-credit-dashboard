@@ -11,7 +11,7 @@ test("rewrite follows each source note instead of one fixed script", () => {
   assert.match(inventory.title, /补货/);
   assert.ok(renovation.coverImages.every((cover) => cover.url.startsWith("data:image/svg+xml")));
   assert.notEqual(renovation.coverImages[0].url, inventory.coverImages[0].url);
-  assert.equal(renovation.coverImages.length, 9);
+  assert.equal(renovation.coverImages.length, 15);
   assert.equal(renovation.sourceTitle, "装修临时缺钱怎么办？");
   assert.match(renovation.adaptation.structure, /原爆款/);
   assert.ok(renovation.adaptation.skillRules.includes("非低价合规"));
@@ -23,7 +23,14 @@ test("rewrite preserves the source scene anchor in title body and covers", () =>
   assert.match(result.title, /热水器/);
   assert.match(result.body, /热水器/);
   assert.equal(result.adaptation.sourceAnchor, "热水器突然坏了要换新");
-  assert.equal(result.coverImages.length, 9);
+  assert.equal(result.coverImages.length, 15);
+  assert.deepEqual(result.coverImages.map(cover => cover.name), [
+    "急用钱换搭配", "急用钱提问", "插图", "美漫", "弥散",
+    "几何", "清新", "书摘", "科技", "柔和",
+    "备忘", "边框", "涂写", "手写", "便签"
+  ]);
+  assert.match(decodeURIComponent(result.coverImages[0].url), /data:image\/png;base64/);
+  assert.match(decodeURIComponent(result.coverImages[0].url), /年化利率（单利）7\.2%-24%/);
 });
 
 test("competitor keywords are rewritten into a natural credit scene", () => {
