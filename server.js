@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 import express from "express";
 import compression from "compression";
 import { Store } from "./lib/store.js";
-import { collectNoteComments, collectTopNotes, dedupeGroups, isHotNote, matchesEditorialRules, openLoginBrowser } from "./lib/collector.js";
+import { collectNoteComments, collectTopNotes, openLoginBrowser } from "./lib/collector.js";
 import { analyzeNotes } from "./lib/analyzer.js";
 import { generateDraft, generateRewrite } from "./lib/generator.js";
 import { scheduleDaily } from "./lib/scheduler.js";
@@ -15,31 +15,6 @@ const profilePath = path.join(root, "data", "browser-profile");
 const app = express();
 let running = false;
 let loginContext;
-const MIN_NOTES_PER_GROUP = 2;
-const MAX_NOTES_PER_GROUP = 5;
-
-function backfillGroups(groups, historicalRuns) {
-  const filled = groups.map((group) => {
-    const selected = [...group.notes];
-    const seen = new Set(selected.map((note) => note.id));
-    if (selected.length < MIN_NOTES_PER_GROUP) {
-      for (const run of historicalRuns) {
-        const historicalGroup = run.groups?.find((item) => item.keyword === group.keyword);
-        for (const note of historicalGroup?.notes || []) {
-          if (selected.length >= MIN_NOTES_PER_GROUP) break;
-          if (!seen.has(note.id) && matchesEditorialRules(note, group.keyword) && isHotNote(note)) {
-            selected.push({ ...note, carriedForward: true });
-            seen.add(note.id);
-          }
-        }
-        if (selected.length >= MIN_NOTES_PER_GROUP) break;
-      }
-    }
-    return { ...group, notes: selected.slice(0, MAX_NOTES_PER_GROUP) };
-  });
-  return dedupeGroups(filled);
-}
-
 app.use(compression());
 app.use(express.json({ limit: "2mb" }));
 app.use(express.static(path.join(root, "public")));
@@ -55,7 +30,7 @@ async function runCollection({ headless = false } = {}) {
     }
     const data = await store.read();
     const collectedGroups = await collectTopNotes({ keywords: data.settings.keywords, profilePath, headless });
-    const groups = await cacheNoteCovers(backfillGroups(collectedGroups, data.runs), path.join(root, "public"));
+    const groups = await cacheNoteCovers(collectedGroups, path.join(root, "public"));
     const notes = groups.flatMap((group) => group.notes.map((note, index) => ({ ...note, keyword: group.keyword, rank: index + 1 })));
     const run = {
       id: crypto.randomUUID(),

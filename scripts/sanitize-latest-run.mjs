@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { dedupeGroups, isHotNote, matchesEditorialRules } from "../lib/collector.js";
+import { matchesEditorialRules, selectFirstUniqueNotePerGroup } from "../lib/collector.js";
 
 const storePath = path.resolve(import.meta.dirname, "../data/store.json");
 const data = JSON.parse(await fs.readFile(storePath, "utf8"));
@@ -20,10 +20,10 @@ async function restoreRealCover(note) {
   return note;
 }
 
-latestRun.groups = dedupeGroups(
+latestRun.groups = selectFirstUniqueNotePerGroup(
   await Promise.all(latestRun.groups.map(async (group) => ({
     ...group,
-    notes: await Promise.all((group.notes || []).filter((note) => matchesEditorialRules(note, group.keyword) && isHotNote(note)).map(restoreRealCover)),
+    notes: await Promise.all((group.notes || []).filter((note) => matchesEditorialRules(note, group.keyword)).map(restoreRealCover)),
   }))),
 );
 

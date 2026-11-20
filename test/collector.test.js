@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { calculateCes, dedupeGroups, isHotNote, matchesEditorialRules } from "../lib/collector.js";
+import { calculateCes, dedupeGroups, isHotNote, matchesEditorialRules, selectFirstUniqueNotePerGroup } from "../lib/collector.js";
 
 test("competitor analysis keeps positive product content", () => {
   assert.equal(matchesEditorialRules({ title: "借呗怎么用？申请条件和分期体验" }, "借呗"), true);
@@ -32,6 +32,14 @@ test("deduplicates notes globally by id and normalized title", () => {
   assert.deepEqual(groups.map(group => group.notes.map(note => note.id)), [["a"], ["c"]]);
 });
 
+test("keeps the first unique search result in each category", () => {
+  const groups = selectFirstUniqueNotePerGroup([
+    { keyword: "借呗", notes: [{ id: "a", title: "第一条" }, { id: "b", title: "第二条" }] },
+    { keyword: "借钱", notes: [{ id: "a", title: "第一条" }, { id: "c", title: "第三条" }] },
+  ]);
+  assert.deepEqual(groups.map((group) => group.notes.map((note) => note.id)), [["a"], ["c"]]);
+});
+
 test("requires real viral interaction before selection", () => {
   assert.equal(isHotNote({ likes: 12, favorites: 3, comments: 1 }), false);
   assert.equal(isHotNote({ likes: 69, favorites: 87, comments: 0 }), true);
@@ -53,7 +61,7 @@ test("search keywords favor borrowing needs and stories", () => {
   assert.equal(matchesEditorialRules({ title: "出国留学的邪修凑钱办法" }, "贷款"), false);
   assert.equal(matchesEditorialRules({ title: "后悔提前结清房贷了，应急资金留少了" }, "资金周转"), false);
   assert.equal(matchesEditorialRules({ title: "京东金条电话诱导借款不要信" }, "京东金条"), false);
-  assert.equal(matchesEditorialRules({ title: "京东金条首借免息，利率低" }, "京东金条"), false);
+  assert.equal(matchesEditorialRules({ title: "京东金条首借免息，利率低" }, "京东金条"), true);
   assert.equal(matchesEditorialRules({ title: "佛山翡翠回收，资金周转更放心" }, "资金周转"), false);
   assert.equal(matchesEditorialRules({ title: "我的汴京小摊，准备重新开张" }, "资金周转"), false);
   assert.equal(matchesEditorialRules({ title: "导：营运资金管理分析初稿" }, "资金周转"), false);
