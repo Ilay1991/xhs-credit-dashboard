@@ -92,7 +92,7 @@ const stats=q('#library .stats');
 if(libraryView&&stats){
   const guide=document.createElement('details');
   guide.className='usage-guide';
-  guide.innerHTML='<summary><span class="usage-icon">🎬</span><b>使用说明</b><span class="usage-summary-text">工作日 10:30 更新 · 爆款拆解仿写 · 爆款话术库</span><em>查看详情⌄</em></summary><div class="usage-guide-grid"><article><h3>📌 数据来源</h3><p>平台每个工作日 10:30 自动抓取小红书上的信贷相关热门笔记，为你提供实时的爆款参考。</p></article><article><h3>🚀 核心功能</h3><p><b>› 爆款拆解 &amp; 仿写</b></p><ul><li>一键拆解爆款笔记的结构与亮点</li><li>结合信贷行业特色，直接生成可发布的笔记</li><li>内置 6 种热门模板，可按需选用</li></ul><p><b>› 爆款话术库</b></p><ul><li>从标题、开头钩子、产品卖点三个维度，沉淀往期爆款的写法</li><li>新手也能快速找到思路，拿来即用</li></ul></article><article class="usage-tip"><h3>💡 温馨提示</h3><p>首次加载可能需要约 20–30 秒，如果页面显示为空，请耐心等待。</p></article></div>';
+  guide.innerHTML='<summary><span class="usage-icon">🎬</span><b>使用说明</b><span class="usage-summary-text">工作日 10:30 更新 · 爆款拆解 · 爆款话术库</span><em>查看详情⌄</em></summary><div class="usage-guide-grid"><article><h3>📌 数据来源</h3><p>平台每个工作日 10:30 自动抓取小红书上的信贷相关热门笔记，为你提供实时的爆款参考。</p></article><article><h3>🚀 核心功能</h3><p><b>› 爆款拆解</b></p><ul><li>点击链接查看原文</li><li>一键拆解爆款笔记的结构与亮点</li></ul><p><b>› 爆款话术库</b></p><ul><li>从标题、开头钩子、产品卖点三个维度，沉淀往期爆款的写法</li><li>新手也能快速找到思路，拿来即用</li></ul></article><article class="usage-tip"><h3>💡 温馨提示</h3><p>首次加载可能需要约 20–30 秒，如果页面显示为空，请耐心等待。</p></article></div>';
   libraryView.insertBefore(guide,stats);
 }
 const sideStatus=q('.side-status span');
