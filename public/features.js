@@ -7,7 +7,7 @@ if(topActions){
   refreshButton.className='ghost';
   refreshButton.id='pageRefreshButton';
   refreshButton.textContent='🔄 刷新页面';
-  refreshButton.onclick=()=>window.location.reload();
+  refreshButton.onclick=()=>{const url=new URL(window.location.href);url.searchParams.set('v',Date.now());window.location.replace(url)};
   topActions.prepend(refreshButton);
 }
 const libraryView=q('#library');
