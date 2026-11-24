@@ -4,9 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "30 2 * * 1-5"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -15,7 +17,32 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  collect:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run collect:once
+        env:
+          TIKHUB_API_KEY: ${{ secrets.TIKHUB_API_KEY }}
+      - run: npm run build:pages
+      - name: Save collected materials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -f data/store.json
+          git add public/note-covers docs/note-covers public/爆款分析工作台.html docs/index.html
+          git diff --cached --quiet || git commit -m "Automated weekday material refresh"
+          git push
+
   build:
+    needs: [collect]
+    if: always() && (needs.collect.result == 'success' || needs.collect.result == 'skipped')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
