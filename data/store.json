@@ -1,6 +1,118 @@
 {
   "runs": [
     {
+      "id": "d6d3ac7c-fbd4-47cf-a108-5cc907e1be60",
+      "collectedAt": "2026-11-25T03:30:54.506Z",
+      "status": "partial",
+      "groups": [
+        {
+          "keyword": "借呗",
+          "notes": [],
+          "collectionErrors": [
+            "借呗: TikHub API 密钥未配置",
+            "借呗 申请: TikHub API 密钥未配置",
+            "借呗 额度: TikHub API 密钥未配置",
+            "借呗 使用体验: TikHub API 密钥未配置"
+          ]
+        },
+        {
+          "keyword": "京东金条",
+          "notes": [],
+          "collectionErrors": [
+            "京东金条: TikHub API 密钥未配置",
+            "京东金条 借钱: TikHub API 密钥未配置",
+            "京东金条 申请: TikHub API 密钥未配置",
+            "京东金条 额度: TikHub API 密钥未配置"
+          ]
+        },
+        {
+          "keyword": "微众银行",
+          "notes": [],
+          "collectionErrors": [
+            "微众银行: TikHub API 密钥未配置",
+            "微众银行 借钱: TikHub API 密钥未配置",
+            "微粒贷 申请: TikHub API 密钥未配置",
+            "微粒贷 额度: TikHub API 密钥未配置",
+            "微粒贷 使用体验: TikHub API 密钥未配置"
+          ]
+        },
+        {
+          "keyword": "借钱",
+          "notes": [],
+          "collectionErrors": [
+            "借钱: TikHub API 密钥未配置",
+            "急用钱 借钱故事: TikHub API 密钥未配置",
+            "临时缺钱 怎么办: TikHub API 密钥未配置",
+            "借钱 应急周转: TikHub API 密钥未配置"
+          ]
+        },
+        {
+          "keyword": "急用钱",
+          "notes": [],
+          "collectionErrors": [
+            "急用钱: TikHub API 密钥未配置",
+            "急用钱 应急: TikHub API 密钥未配置",
+            "突然急用钱: TikHub API 密钥未配置",
+            "急用钱 周转故事: TikHub API 密钥未配置"
+          ]
+        },
+        {
+          "keyword": "贷款",
+          "notes": [],
+          "collectionErrors": [
+            "贷款: TikHub API 密钥未配置",
+            "贷款 真实需求: TikHub API 密钥未配置",
+            "装修贷款 周转: TikHub API 密钥未配置",
+            "学费贷款 资金需求: TikHub API 密钥未配置"
+          ]
+        },
+        {
+          "keyword": "资金周转",
+          "notes": [],
+          "collectionErrors": [
+            "资金周转: TikHub API 密钥未配置",
+            "生意资金周转: TikHub API 密钥未配置",
+            "进货资金周转: TikHub API 密钥未配置",
+            "临时资金周转: TikHub API 密钥未配置"
+          ]
+        },
+        {
+          "keyword": "借钱哪个平台更靠谱",
+          "notes": [],
+          "collectionErrors": [
+            "借钱哪个平台更靠谱: TikHub API 密钥未配置",
+            "借钱平台 靠谱: TikHub API 密钥未配置",
+            "借款平台 正规: TikHub API 密钥未配置",
+            "急用钱 哪个平台靠谱: TikHub API 密钥未配置"
+          ]
+        }
+      ],
+      "analysis": {
+        "noteCount": 0,
+        "dominantHook": "信息差",
+        "hooks": [
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "人情成本",
+            "count": 0
+          },
+          {
+            "name": "场景痛点",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [],
+        "summary": "暂无可分析笔记。"
+      }
+    },
+    {
       "id": "c13c058c-3d36-4e50-a70c-0f37d715ec3a",
       "collectedAt": "2026-11-25T02:31:38.017Z",
       "status": "complete",
