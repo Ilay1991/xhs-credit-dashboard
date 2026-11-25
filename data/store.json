@@ -1,6 +1,713 @@
 {
   "runs": [
     {
+      "id": "c13c058c-3d36-4e50-a70c-0f37d715ec3a",
+      "collectedAt": "2026-11-25T02:31:38.017Z",
+      "status": "complete",
+      "groups": [
+        {
+          "keyword": "借呗",
+          "notes": [
+            {
+              "id": "6b03eb1a000000002b031e4e",
+              "keyword": "借呗",
+              "title": "借呗利率这么低了？",
+              "body": "#借钱  比一般的银行利率还低 还是先息后本 这么猛了？银行最低3%了吧 ps:研究了一下应该是资方都是银行，看个人的各",
+              "fullContent": "#借钱  比一般的银行利率还低 还是先息后本 这么猛了？银行最低3%了吧 ps:研究了一下应该是资方都是银行，看个人的各",
+              "author": "丶Vincent",
+              "authorId": "633b74f40000000018029964",
+              "publishedAt": "2026-11-23T07:28:26.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b03eb1a000000002b031e4e?xsec_token=YBL4k87ml8oN6tebuZ6VczfYlL9_VHjlNLdI2CbSzmfbM%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 59,
+              "favorites": 24,
+              "comments": 156,
+              "shares": 13,
+              "views": 0,
+              "ces": 759,
+              "engagement": 759,
+              "interactionRate": null,
+              "score": 90,
+              "cover": "/note-covers/6b03eb1a000000002b031e4e.svg",
+              "xsecToken": "YBL4k87ml8oN6tebuZ6VczfYlL9_VHjlNLdI2CbSzmfbM=",
+              "editorialScore": 9
+            }
+          ],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "京东金条",
+          "notes": [],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "微众银行",
+          "notes": [],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "借钱",
+          "notes": [
+            {
+              "id": "681594ba000000002202a17d",
+              "keyword": "借钱",
+              "title": "急用钱？这4个救急借钱方法必收藏！",
+              "body": "说真的，急用钱的时候，真的特别容易“病急乱投医”…… 我自己踩过很多坑，从一开始什么都不懂，到现在借款前必做功课，总算摸",
+              "fullContent": "说真的，急用钱的时候，真的特别容易“病急乱投医”…… 我自己踩过很多坑，从一开始什么都不懂，到现在借款前必做功课，总算摸",
+              "author": "小雨的日常",
+              "authorId": "5b8a9a7ec4674300010a4641",
+              "publishedAt": "2025-05-03T12:51:08.000Z",
+              "url": "https://www.xiaohongshu.com/explore/681594ba000000002202a17d?xsec_token=YBCVJZwqKfyKGuZ8Y_CJvmhW-qOVu6p8vzF7389QTDXAQ%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 1536,
+              "favorites": 511,
+              "comments": 1068,
+              "shares": 129,
+              "views": 0,
+              "ces": 6835,
+              "engagement": 6835,
+              "interactionRate": null,
+              "score": 97,
+              "cover": "/note-covers/681594ba000000002202a17d.webp",
+              "xsecToken": "YBCVJZwqKfyKGuZ8Y_CJvmhW-qOVu6p8vzF7389QTDXAQ=",
+              "editorialScore": 17
+            }
+          ],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "急用钱",
+          "notes": [
+            {
+              "id": "6b0043dd000000001f0160ac",
+              "keyword": "急用钱",
+              "title": "修车急用钱，发现应急周转能提额",
+              "body": "最近开车上班，发现车子抖得厉害，一查发动机得大修，车过保没多久，修一下得几万，手头钱刚好用在别处了，看了下借呗额度还差一",
+              "fullContent": "最近开车上班，发现车子抖得厉害，一查发动机得大修，车过保没多久，修一下得几万，手头钱刚好用在别处了，看了下借呗额度还差一",
+              "author": "冰冰乐",
+              "authorId": "6918a88700000000370303d1",
+              "publishedAt": "2026-11-21T23:00:24.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b0043dd000000001f0160ac?xsec_token=YByJ0Zo1qBSATwiWFc8HUBxampR28R0nT5EVh92jPg6lg%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 16,
+              "favorites": 15,
+              "comments": 0,
+              "shares": 0,
+              "views": 0,
+              "ces": 31,
+              "engagement": 31,
+              "interactionRate": null,
+              "score": 80,
+              "cover": "/note-covers/6b0043dd000000001f0160ac.webp",
+              "xsecToken": "YByJ0Zo1qBSATwiWFc8HUBxampR28R0nT5EVh92jPg6lg=",
+              "editorialScore": 16
+            }
+          ],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "贷款",
+          "notes": [],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "资金周转",
+          "notes": [
+            {
+              "id": "672ae233000000001901aa95",
+              "keyword": "资金周转",
+              "title": "缺钱女孩请照做🔥",
+              "body": "总是缺钱？不妨试试做这些事！ 总结了10个小妙招，希望能帮助到大家 🌟1.不要借钱 🌟2.准备3张银行卡 🌟3.强",
+              "fullContent": "总是缺钱？不妨试试做这些事！ 总结了10个小妙招，希望能帮助到大家 🌟1.不要借钱 🌟2.准备3张银行卡 🌟3.强",
+              "author": "橙子猫77",
+              "authorId": "66ab423c000000001d023b99",
+              "publishedAt": "2024-11-06T03:27:47.000Z",
+              "url": "https://www.xiaohongshu.com/explore/672ae233000000001901aa95?xsec_token=YBCuV9MnnqflMo51AIppXbWoKsEYrL-SCbEpwHCEzB8S8%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 4728,
+              "favorites": 1986,
+              "comments": 735,
+              "shares": 80,
+              "views": 0,
+              "ces": 9974,
+              "engagement": 9974,
+              "interactionRate": null,
+              "score": 98,
+              "cover": "/note-covers/672ae233000000001901aa95.webp",
+              "xsecToken": "YBCuV9MnnqflMo51AIppXbWoKsEYrL-SCbEpwHCEzB8S8=",
+              "editorialScore": 6
+            }
+          ],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "借钱哪个平台更靠谱",
+          "notes": [
+            {
+              "id": "6afd82fd000000002b01ece6",
+              "keyword": "借钱哪个平台更靠谱",
+              "title": "越急用钱越要看清，借呗提前还没有手续费",
+              "body": "上次我姐妹急用钱在某贷款平台借了一笔钱，看利率还不错，觉得还可以就借了，后来涨工资了，就想提前还掉，没想到利率不是那个数",
+              "fullContent": "上次我姐妹急用钱在某贷款平台借了一笔钱，看利率还不错，觉得还可以就借了，后来涨工资了，就想提前还掉，没想到利率不是那个数",
+              "author": "五花肉",
+              "authorId": "5c62965b0000000010004ff9",
+              "publishedAt": "2026-11-18T23:01:08.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6afd82fd000000002b01ece6?xsec_token=YB7l0q-Ooo03VUpDpgAI6SlUnbh3AvQkH1LcdBt6_-fDM%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 3,
+              "favorites": 0,
+              "comments": 0,
+              "shares": 0,
+              "views": 0,
+              "ces": 3,
+              "engagement": 3,
+              "interactionRate": null,
+              "score": 73,
+              "cover": "/note-covers/6afd82fd000000002b01ece6.webp",
+              "xsecToken": "YB7l0q-Ooo03VUpDpgAI6SlUnbh3AvQkH1LcdBt6_-fDM=",
+              "editorialScore": 14
+            }
+          ],
+          "collectionErrors": []
+        }
+      ],
+      "analysis": {
+        "noteCount": 5,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "人情成本",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "急用钱",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 3
+          },
+          {
+            "word": "贷款",
+            "count": 1
+          },
+          {
+            "word": "周转",
+            "count": 1
+          },
+          {
+            "word": "额度",
+            "count": 1
+          }
+        ],
+        "summary": "本轮 5 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      }
+    },
+    {
+      "id": "90825eee-5185-4e88-bf04-8dffc945592d",
+      "collectedAt": "2026-11-25T02:31:17.155Z",
+      "status": "complete",
+      "groups": [
+        {
+          "keyword": "借呗",
+          "notes": [
+            {
+              "id": "6b002d9d000000002501eac9",
+              "keyword": "借呗",
+              "title": "碰坏别人相机，应急周转先赔偿了",
+              "body": "周末跟朋友出去玩，人挤人，转身没留神碰掉旁边人的相机，机身镜头都磕了，赔下来几万，手里加上借呗额度还差不少，急用钱，点开",
+              "fullContent": "周末跟朋友出去玩，人挤人，转身没留神碰掉旁边人的相机，机身镜头都磕了，赔下来几万，手里加上借呗额度还差不少，急用钱，点开",
+              "author": "牛皮糖",
+              "authorId": "69c366c8000000003402f6aa",
+              "publishedAt": "2026-11-21T23:00:24.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b002d9d000000002501eac9?xsec_token=YByJ0Zo1qBSATwiWFc8HUBxTvECZUf72L4y_25I2_NZW8%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 21,
+              "favorites": 0,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 21,
+              "cover": "/note-covers/6b002d9d000000002501eac9.webp",
+              "xsecToken": "YByJ0Zo1qBSATwiWFc8HUBxTvECZUf72L4y_25I2_NZW8=",
+              "editorialScore": 20
+            },
+            {
+              "id": "6afedb37000000002b03d1d9",
+              "keyword": "借呗",
+              "title": "别信花钱能提额，应急周转在平台上自己能弄",
+              "body": "前天跟同学吃饭，他说家里出意外急用钱，借呗额度不太够，网上刷到有人说花点钱能帮忙提额，问我听说过没，我说首页的成长中心里",
+              "fullContent": "前天跟同学吃饭，他说家里出意外急用钱，借呗额度不太够，网上刷到有人说花点钱能帮忙提额，问我听说过没，我说首页的成长中心里",
+              "author": "朱肘饭",
+              "authorId": "5eaaa72600000000010015ed",
+              "publishedAt": "2026-11-19T23:04:01.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6afedb37000000002b03d1d9?xsec_token=YBGue-ZlCHuJHM4hXONhr1LRhyMjMzL3iuddTiuFbmY4Q%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 2,
+              "favorites": 2,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 4.8,
+              "cover": "/note-covers/6afedb37000000002b03d1d9.webp",
+              "xsecToken": "YBGue-ZlCHuJHM4hXONhr1LRhyMjMzL3iuddTiuFbmY4Q=",
+              "editorialScore": 20
+            },
+            {
+              "id": "6b0043dd000000001f0160ac",
+              "keyword": "借呗",
+              "title": "修车急用钱，发现应急周转能提额",
+              "body": "最近开车上班，发现车子抖得厉害，一查发动机得大修，车过保没多久，修一下得几万，手头钱刚好用在别处了，看了下借呗额度还差一",
+              "fullContent": "最近开车上班，发现车子抖得厉害，一查发动机得大修，车过保没多久，修一下得几万，手头钱刚好用在别处了，看了下借呗额度还差一",
+              "author": "冰冰乐",
+              "authorId": "6918a88700000000370303d1",
+              "publishedAt": "2026-11-21T23:00:24.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b0043dd000000001f0160ac?xsec_token=YByJ0Zo1qBSATwiWFc8HUBxR8727vQBgXQ3TrMFBJBnR0%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 16,
+              "favorites": 15,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 37,
+              "cover": "/note-covers/6b0043dd000000001f0160ac.webp",
+              "xsecToken": "YByJ0Zo1qBSATwiWFc8HUBxR8727vQBgXQ3TrMFBJBnR0=",
+              "editorialScore": 16
+            },
+            {
+              "id": "6afd851b000000001802eaf4",
+              "keyword": "借呗",
+              "title": "应急周转差点上当？借呗提额自己就能操作",
+              "body": "和大家说个事啊，借呗提额没有人工通道，凡是收钱代提的，全是骗子，我朋友上次差点上当交钱，幸亏我让他到借呗首页成长中心去试",
+              "fullContent": "和大家说个事啊，借呗提额没有人工通道，凡是收钱代提的，全是骗子，我朋友上次差点上当交钱，幸亏我让他到借呗首页成长中心去试",
+              "author": "美宝",
+              "authorId": "6919b3b0000000003702a340",
+              "publishedAt": "2026-11-18T23:05:03.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6afd851b000000001802eaf4?xsec_token=YB7l0q-Ooo03VUpDpgAI6SlVbDf-0hQX4U56DIU7B-UNs%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 7,
+              "favorites": 7,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 16.799999999999997,
+              "cover": "/note-covers/6afd851b000000001802eaf4.webp",
+              "xsecToken": "YB7l0q-Ooo03VUpDpgAI6SlVbDf-0hQX4U56DIU7B-UNs=",
+              "editorialScore": 15
+            },
+            {
+              "id": "67233b0f000000003c01c38b",
+              "keyword": "借呗",
+              "title": "借呗开了！满足这些要求就可以了",
+              "body": "以前我也觉得借呗好难开，为了有个备用小金库，这个月我就仔细钻研了一下，嘿还真让我发现点小窍门。 一定！一定要频繁使用支付",
+              "fullContent": "以前我也觉得借呗好难开，为了有个备用小金库，这个月我就仔细钻研了一下，嘿还真让我发现点小窍门。 一定！一定要频繁使用支付",
+              "author": "你看到一个名字",
+              "authorId": "587e02936a6a690c3db58841",
+              "publishedAt": "2024-10-31T08:08:47.000Z",
+              "url": "https://www.xiaohongshu.com/explore/67233b0f000000003c01c38b?xsec_token=YBUo73twgmbmZU8BWYR0r5Jnw48p1IdWeXJa9frnUB8Tc%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 1479,
+              "favorites": 222,
+              "comments": 737,
+              "shares": 15,
+              "engagement": 3116.4,
+              "cover": "/note-covers/67233b0f000000003c01c38b.webp",
+              "xsecToken": "YBUo73twgmbmZU8BWYR0r5Jnw48p1IdWeXJa9frnUB8Tc=",
+              "editorialScore": 10
+            }
+          ],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "京东金条",
+          "notes": [
+            {
+              "id": "6affc075000000002b0348e9",
+              "keyword": "京东金条",
+              "title": "京东金条提前还款违约金高达16%求支招",
+              "body": "等本等息贷款提前结清，遇到高额费用，求助有 家人一笔消费贷，放款方湖北消费金融，当初借款169200元，已经正常归还",
+              "fullContent": "等本等息贷款提前结清，遇到高额费用，求助有 家人一笔消费贷，放款方湖北消费金融，当初借款169200元，已经正常归还",
+              "author": "小红薯632FF381",
+              "authorId": "632fde7d0000000019022cc5",
+              "publishedAt": "2026-11-20T03:37:25.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6affc075000000002b0348e9?xsec_token=YBr7lkPi-aqGzZqmVyyPpv-IqNzl2SC8NOUPpxqkrNXb8%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 1,
+              "favorites": 0,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 1,
+              "cover": "/note-covers/6affc075000000002b0348e9.webp",
+              "xsecToken": "YBr7lkPi-aqGzZqmVyyPpv-IqNzl2SC8NOUPpxqkrNXb8=",
+              "editorialScore": 11,
+              "carriedForward": true
+            },
+            {
+              "id": "6afe9eb8000000002a02eecd",
+              "keyword": "京东金条",
+              "title": "按期还和灵活还的区别是什么？",
+              "body": "京东金条的按期还和灵活还，到底有什么区别？🤔 主要区别在于计息方式和还款规则👇 📌 按期还：按月计息 提前结清需收",
+              "fullContent": "京东金条的按期还和灵活还，到底有什么区别？🤔 主要区别在于计息方式和还款规则👇 📌 按期还：按月计息 提前结清需收",
+              "author": "京东金条借钱",
+              "authorId": "5bb6fb77cd338f00014563fd",
+              "publishedAt": "2026-11-19T07:01:12.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6afe9eb8000000002a02eecd?xsec_token=YBa0HVK42ZOTysoCbc-dNVeFWHxz9FtmC8M8YV8LhH5VQ%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 2,
+              "favorites": 1,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 3.4,
+              "cover": "/note-covers/6afe9eb8000000002a02eecd.webp",
+              "xsecToken": "YBa0HVK42ZOTysoCbc-dNVeFWHxz9FtmC8M8YV8LhH5VQ=",
+              "editorialScore": 8,
+              "carriedForward": true
+            }
+          ],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "借钱",
+          "notes": [
+            {
+              "id": "681594ba000000002202a17d",
+              "keyword": "借钱",
+              "title": "急用钱？这4个救急借钱方法必收藏！",
+              "body": "说真的，急用钱的时候，真的特别容易“病急乱投医”…… 我自己踩过很多坑，从一开始什么都不懂，到现在借款前必做功课，总算摸",
+              "fullContent": "说真的，急用钱的时候，真的特别容易“病急乱投医”…… 我自己踩过很多坑，从一开始什么都不懂，到现在借款前必做功课，总算摸",
+              "author": "小雨的日常",
+              "authorId": "5b8a9a7ec4674300010a4641",
+              "publishedAt": "2025-05-03T12:51:08.000Z",
+              "url": "https://www.xiaohongshu.com/explore/681594ba000000002202a17d?xsec_token=YBNclQrVqb2I9oIyrDg4Sh2YaH4zMaz-CQtOXBRKHGh-E%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 1536,
+              "favorites": 511,
+              "comments": 1068,
+              "shares": 129,
+              "engagement": 4173.8,
+              "cover": "/note-covers/681594ba000000002202a17d.webp",
+              "xsecToken": "YBNclQrVqb2I9oIyrDg4Sh2YaH4zMaz-CQtOXBRKHGh-E=",
+              "editorialScore": 17
+            },
+            {
+              "id": "672ae233000000001901aa95",
+              "keyword": "借钱",
+              "title": "缺钱女孩请照做🔥",
+              "body": "总是缺钱？不妨试试做这些事！ 总结了10个小妙招，希望能帮助到大家 🌟1.不要借钱 🌟2.准备3张银行卡 🌟3.强",
+              "fullContent": "总是缺钱？不妨试试做这些事！ 总结了10个小妙招，希望能帮助到大家 🌟1.不要借钱 🌟2.准备3张银行卡 🌟3.强",
+              "author": "橙子猫77",
+              "authorId": "66ab423c000000001d023b99",
+              "publishedAt": "2024-11-06T03:27:47.000Z",
+              "url": "https://www.xiaohongshu.com/explore/672ae233000000001901aa95?xsec_token=YBm4elkgjYiLHQi5io_hooN2njA0qXXBbow1g3P8uMU1g%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 4728,
+              "favorites": 1986,
+              "comments": 735,
+              "shares": 80,
+              "engagement": 8831.4,
+              "cover": "https://sns-i11.rednotecdn.com/1040g008319ribd7hmq005plb88u7cesppdqpu1g?imageView2/2/w/1440/format/webp&ap=5&sc=SRH_DTL&sign=8a39b1706ac2b6d4459f9133f375c706&t=6b064845",
+              "xsecToken": "YBm4elkgjYiLHQi5io_hooN2njA0qXXBbow1g3P8uMU1g=",
+              "editorialScore": 10
+            },
+            {
+              "id": "6afeb343000000002203b1f2",
+              "keyword": "借钱",
+              "title": "一文说清：融资到底是什么",
+              "body": "谁懂啊！以前总觉得融资是大佬们的游戏 自己开个小店、搞个小项目根本碰不上 直到最近琢磨资金周转，越查越头大 干脆自己花了",
+              "fullContent": "谁懂啊！以前总觉得融资是大佬们的游戏 自己开个小店、搞个小项目根本碰不上 直到最近琢磨资金周转，越查越头大 干脆自己花了",
+              "author": "富富得挣",
+              "authorId": "68d22bc5000000002102d6d0",
+              "publishedAt": "2026-11-19T08:28:51.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6afeb343000000002203b1f2?xsec_token=YBBvWvYWvkzm30sC8QbhM9EKfv1lDQypICwEMZ2AeZwcQ%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 152,
+              "favorites": 163,
+              "comments": 2,
+              "shares": 14,
+              "engagement": 383.8,
+              "cover": "/note-covers/6afeb343000000002203b1f2.webp",
+              "xsecToken": "YBBvWvYWvkzm30sC8QbhM9EKfv1lDQypICwEMZ2AeZwcQ=",
+              "editorialScore": 5
+            }
+          ],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "急用钱",
+          "notes": [
+            {
+              "id": "6b03d573000000002b0356a9",
+              "keyword": "急用钱",
+              "title": "家里备用金，放哪里才安心？",
+              "body": "是不是很多人纠结： 钱全放银行，急用钱的时候手续麻烦、支取受限； 现金随手放家里，抽屉、床底，怕被盗、怕起火。 之前也听",
+              "fullContent": "是不是很多人纠结： 钱全放银行，急用钱的时候手续麻烦、支取受限； 现金随手放家里，抽屉、床底，怕被盗、怕起火。 之前也听",
+              "author": "杭州恋家-集宝保险柜",
+              "authorId": "62e14783000000001f0052f1",
+              "publishedAt": "2026-11-23T05:56:03.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b03d573000000002b0356a9?xsec_token=YBSgjKMaTMqP35L_j-kLq7icHKPEnWwjGEMI_Q_IZW4Uk%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 300,
+              "favorites": 47,
+              "comments": 71,
+              "shares": 14,
+              "engagement": 493.6,
+              "cover": "/note-covers/6b03d573000000002b0356a9.webp",
+              "xsecToken": "YBSgjKMaTMqP35L_j-kLq7icHKPEnWwjGEMI_Q_IZW4Uk=",
+              "editorialScore": 16
+            },
+            {
+              "id": "6b0043dd000000001f0160ac",
+              "keyword": "急用钱",
+              "title": "修车急用钱，发现应急周转能提额",
+              "body": "最近开车上班，发现车子抖得厉害，一查发动机得大修，车过保没多久，修一下得几万，手头钱刚好用在别处了，看了下借呗额度还差一",
+              "fullContent": "最近开车上班，发现车子抖得厉害，一查发动机得大修，车过保没多久，修一下得几万，手头钱刚好用在别处了，看了下借呗额度还差一",
+              "author": "冰冰乐",
+              "authorId": "6918a88700000000370303d1",
+              "publishedAt": "2026-11-21T23:00:24.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b0043dd000000001f0160ac?xsec_token=YBv0gDvn4wZ_SukfvTqJ8Klr4WIWvkE7wi4PR3xTLHLlo%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 16,
+              "favorites": 15,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 37,
+              "cover": "/note-covers/6b0043dd000000001f0160ac.webp",
+              "xsecToken": "YBv0gDvn4wZ_SukfvTqJ8Klr4WIWvkE7wi4PR3xTLHLlo=",
+              "editorialScore": 16
+            }
+          ],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "贷款",
+          "notes": [
+            {
+              "id": "6afe7bcc0000000024032c28",
+              "keyword": "贷款",
+              "title": "📣装修分期怎么申请？",
+              "body": "到底是谁在说装修贷智商税啊！！ ✅目前市面银行基本都有针对装修的贷款，月息基本都在1.8%左右，5年期，等本等息。 也搜",
+              "fullContent": "到底是谁在说装修贷智商税啊！！ ✅目前市面银行基本都有针对装修的贷款，月息基本都在1.8%左右，5年期，等本等息。 也搜",
+              "author": "枫叶",
+              "authorId": "63c3507a000000002702bfaf",
+              "publishedAt": "2026-11-19T04:32:12.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6afe7bcc0000000024032c28?xsec_token=YBC-FGg4jcsW7PaNH98ml52KpyPiPpepjzRU5DjNinhWw%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 0,
+              "favorites": 0,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 0,
+              "cover": "/note-covers/6afe7bcc0000000024032c28.webp",
+              "xsecToken": "YBC-FGg4jcsW7PaNH98ml52KpyPiPpepjzRU5DjNinhWw=",
+              "editorialScore": 15
+            },
+            {
+              "id": "6afd5a5f000000002203a362",
+              "keyword": "贷款",
+              "title": "总价8万 出售甲壳虫公寓一套",
+              "body": "本人是房东，出售一套新田城甲壳虫精装修小公寓，有房本，无房贷，可以过户可以分期，拥有它只需要8万块（当初是23万买的，装",
+              "fullContent": "本人是房东，出售一套新田城甲壳虫精装修小公寓，有房本，无房贷，可以过户可以分期，拥有它只需要8万块（当初是23万买的，装",
+              "author": "快乐女生第一名🥕",
+              "authorId": "54ec31782e1d936fcdee3ec8",
+              "publishedAt": "2026-11-18T07:57:19.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6afd5a5f000000002203a362?xsec_token=YBaJT2re_UF5vNDHYKsxpiUpZ0HcO_gNpvl-zkM4NnT1o%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 22,
+              "favorites": 20,
+              "comments": 13,
+              "shares": 7,
+              "engagement": 73.4,
+              "cover": "/note-covers/6afd5a5f000000002203a362.webp",
+              "xsecToken": "YBaJT2re_UF5vNDHYKsxpiUpZ0HcO_gNpvl-zkM4NnT1o=",
+              "editorialScore": 9
+            },
+            {
+              "id": "6b02eb8a000000002903cdfd",
+              "keyword": "贷款",
+              "title": "急用钱💰 3种贷款方式 新手必看 （附避坑指南",
+              "body": "急用钱💰 3种贷款方式 新手必看 （附避坑指南） 怕踩坑、怕利息高该选哪种贷款？3类常见贷款的实用干货，帮你理清思路",
+              "fullContent": "急用钱💰 3种贷款方式 新手必看 （附避坑指南） 怕踩坑、怕利息高该选哪种贷款？3类常见贷款的实用干货，帮你理清思路",
+              "author": "戈戈",
+              "authorId": "66b9da51000000001d0315b4",
+              "publishedAt": "2026-11-22T13:18:02.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b02eb8a000000002903cdfd?xsec_token=YBBG_G9TEQxjqzGlC-95kgdremkkRQUzB5Mm0HR4AHdus%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 4,
+              "favorites": 0,
+              "comments": 2,
+              "shares": 0,
+              "engagement": 7.6,
+              "cover": "/note-covers/6b02eb8a000000002903cdfd.webp",
+              "xsecToken": "YBBG_G9TEQxjqzGlC-95kgdremkkRQUzB5Mm0HR4AHdus=",
+              "editorialScore": 7
+            }
+          ],
+          "collectionErrors": []
+        },
+        {
+          "keyword": "资金周转",
+          "notes": [
+            {
+              "id": "6b0403b1000000002b01bdc8",
+              "keyword": "资金周转",
+              "title": "工厂资金周转紧张｜闲置设备变现比借钱快，景",
+              "body": "订单回款慢、原料要现结、工资月底要发—— 工厂资金周转紧的时候，很多老板第一反应是找银行、找朋友借😓 却忘了车间里还躺",
+              "fullContent": "订单回款慢、原料要现结、工资月底要发—— 工厂资金周转紧的时候，很多老板第一反应是找银行、找朋友借😓 却忘了车间里还躺",
+              "author": "景盛再生资源回收",
+              "authorId": "695c7ec30000000014017afd",
+              "publishedAt": "2026-11-23T09:13:21.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b0403b1000000002b01bdc8?xsec_token=YBENyIHUxpGn7I02Oje6WKrAGvf1CrBOMVvHKEJKcAdP0%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 2,
+              "favorites": 0,
+              "comments": 0,
+              "shares": 2,
+              "engagement": 2,
+              "cover": "/note-covers/6b0403b1000000002b01bdc8.webp",
+              "xsecToken": "YBENyIHUxpGn7I02Oje6WKrAGvf1CrBOMVvHKEJKcAdP0=",
+              "editorialScore": 19
+            },
+            {
+              "id": "6b003213000000002a029c33",
+              "keyword": "资金周转",
+              "title": "刷到个应急周转的帖子，评论区先急了",
+              "body": "刷到个帖子，楼主说牙突然出了状况，医生让赶紧处理，自费下来不少钱，急用钱就用的借呗，评论区有人替他愁，说借钱开了头就管不",
+              "fullContent": "刷到个帖子，楼主说牙突然出了状况，医生让赶紧处理，自费下来不少钱，急用钱就用的借呗，评论区有人替他愁，说借钱开了头就管不",
+              "author": "柚子糖",
+              "authorId": "6a12b6c80000000002001c00",
+              "publishedAt": "2026-11-21T23:36:00.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b003213000000002a029c33?xsec_token=YBF23EpDX79UHf_WKcxjJoWKqyor1HOKD5YqMH_rtJFsw%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 13,
+              "favorites": 1,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 14.4,
+              "cover": "/note-covers/6b003213000000002a029c33.webp",
+              "xsecToken": "YBF23EpDX79UHf_WKcxjJoWKqyor1HOKD5YqMH_rtJFsw=",
+              "editorialScore": 17
+            },
+            {
+              "id": "6b059118000000002b034595",
+              "keyword": "资金周转",
+              "title": "快看，重庆办贷款超简单攻略",
+              "body": "🔐在米行待了十来年，聊点行里很少明说的门道。 重庆有资金周转打算的朋友，这6点踩准了真能省不少心： 1、申请先后有讲究",
+              "fullContent": "🔐在米行待了十来年，聊点行里很少明说的门道。 重庆有资金周转打算的朋友，这6点踩准了真能省不少心： 1、申请先后有讲究",
+              "author": "重庆谢老师规划",
+              "authorId": "6af3e556000000000f039c0a",
+              "publishedAt": "2026-11-24T13:53:59.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b059118000000002b034595?xsec_token=YB9gcl_qM9ecvWNwvQgAF5MNMcnNgE6WBp6vRCo4agB9w%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 2,
+              "favorites": 1,
+              "comments": 1,
+              "shares": 0,
+              "engagement": 5.2,
+              "cover": "/note-covers/6b059118000000002b034595.webp",
+              "xsecToken": "YB9gcl_qM9ecvWNwvQgAF5MNMcnNgE6WBp6vRCo4agB9w=",
+              "editorialScore": 17
+            },
+            {
+              "id": "6b03be7e000000001a01ec78",
+              "keyword": "资金周转",
+              "title": "老板往公司转 $5,000，算营业收入吗？",
+              "body": "在新西兰经营小公司，创业初期难免遇到资金周转的问题。 比如： 老板从个人账户转了 $5,000 到公司账户，准备支付房租",
+              "fullContent": "在新西兰经营小公司，创业初期难免遇到资金周转的问题。 比如： 老板从个人账户转了 $5,000 到公司账户，准备支付房租",
+              "author": "蕾拉｜Lava Accounting",
+              "authorId": "641b647100000000110234d8",
+              "publishedAt": "2026-11-23T04:18:06.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6b03be7e000000001a01ec78?xsec_token=YBC6JRrxy1JZCaoinlDPgg5uDX4PBe9akJRv2vrWoOiuc%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 6,
+              "favorites": 1,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 7.4,
+              "cover": "https://sns-na-i11.xhscdn.com/oss-sg/spectrum/1040g3ug327tb4guf2o2g5p0rchokcd6ojb0r3p8?imageView2/2/w/1440/format/webp&ap=5&sc=SRH_DTL&sign=76c4be921656963803e97132833989e9&t=6b06485c",
+              "xsecToken": "YBC6JRrxy1JZCaoinlDPgg5uDX4PBe9akJRv2vrWoOiuc=",
+              "editorialScore": 16
+            },
+            {
+              "id": "6afedb37000000002b03d1d9",
+              "keyword": "资金周转",
+              "title": "别信花钱能提额，应急周转在平台上自己能弄",
+              "body": "前天跟同学吃饭，他说家里出意外急用钱，借呗额度不太够，网上刷到有人说花点钱能帮忙提额，问我听说过没，我说首页的成长中心里",
+              "fullContent": "前天跟同学吃饭，他说家里出意外急用钱，借呗额度不太够，网上刷到有人说花点钱能帮忙提额，问我听说过没，我说首页的成长中心里",
+              "author": "朱肘饭",
+              "authorId": "5eaaa72600000000010015ed",
+              "publishedAt": "2026-11-19T23:04:01.000Z",
+              "url": "https://www.xiaohongshu.com/explore/6afedb37000000002b03d1d9?xsec_token=YBGwP1rxBLqsI0aT_3A6dCYmHXl_r0YITdYxq2s-8u5d4%3D&xsec_source=pc_search",
+              "type": "图文",
+              "likes": 2,
+              "favorites": 2,
+              "comments": 0,
+              "shares": 0,
+              "engagement": 4.8,
+              "cover": "/note-covers/6afedb37000000002b03d1d9.webp",
+              "xsecToken": "YBGwP1rxBLqsI0aT_3A6dCYmHXl_r0YITdYxq2s-8u5d4=",
+              "editorialScore": 16
+            }
+          ],
+          "collectionErrors": []
+        }
+      ],
+      "analysis": {
+        "noteCount": 20,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 15
+          },
+          {
+            "name": "人情成本",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "周转",
+            "count": 12
+          },
+          {
+            "word": "急用钱",
+            "count": 11
+          },
+          {
+            "word": "贷款",
+            "count": 7
+          },
+          {
+            "word": "额度",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 4
+          }
+        ],
+        "summary": "本轮 20 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      }
+    },
+    {
       "id": "ddc14318-89ba-4130-8091-83333b4d392a",
       "collectedAt": "2026-11-24T02:31:18.933Z",
       "status": "complete",
@@ -5583,6 +6290,736 @@
     }
   ],
   "drafts": [
+    {
+      "id": "030d8979-065d-4e00-ac4f-be0ef5898dda",
+      "createdAt": "2026-11-25T02:31:38.103Z",
+      "keyword": "资金周转",
+      "title": "资金周转不求人，周转先看额度💡",
+      "coverText": "急用钱，先把周转空间留出来",
+      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
+      "tags": [
+        "#度小满",
+        "#急用钱",
+        "#缺钱",
+        "#资金周转",
+        "#理性借贷"
+      ],
+      "analysis": {
+        "noteCount": 5,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "人情成本",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "急用钱",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 3
+          },
+          {
+            "word": "贷款",
+            "count": 1
+          },
+          {
+            "word": "周转",
+            "count": 1
+          },
+          {
+            "word": "额度",
+            "count": 1
+          }
+        ],
+        "summary": "本轮 5 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      },
+      "score": {
+        "image": 3,
+        "title": 3,
+        "hook": 2,
+        "sellingPoints": 1,
+        "total": 9
+      },
+      "compliance": {
+        "passed": false,
+        "errors": [
+          "正文少于170字"
+        ]
+      }
+    },
+    {
+      "id": "a93fc098-31f8-4b1e-88e6-328fe5f1b386",
+      "createdAt": "2026-11-25T02:31:38.097Z",
+      "keyword": "缺钱",
+      "title": "缺钱不求人，周转先看额度💡",
+      "coverText": "急用钱，先把周转空间留出来",
+      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
+      "tags": [
+        "#度小满",
+        "#急用钱",
+        "#缺钱",
+        "#资金周转",
+        "#理性借贷"
+      ],
+      "analysis": {
+        "noteCount": 5,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "人情成本",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "急用钱",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 3
+          },
+          {
+            "word": "贷款",
+            "count": 1
+          },
+          {
+            "word": "周转",
+            "count": 1
+          },
+          {
+            "word": "额度",
+            "count": 1
+          }
+        ],
+        "summary": "本轮 5 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      },
+      "score": {
+        "image": 3,
+        "title": 3,
+        "hook": 2,
+        "sellingPoints": 1,
+        "total": 9
+      },
+      "compliance": {
+        "passed": false,
+        "errors": [
+          "正文少于170字"
+        ]
+      }
+    },
+    {
+      "id": "4e2b9856-37e4-43c9-8711-78244fd3da3a",
+      "createdAt": "2026-11-25T02:31:38.059Z",
+      "keyword": "贷款",
+      "title": "贷款不求人，周转先看额度💡",
+      "coverText": "急用钱，先把周转空间留出来",
+      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
+      "tags": [
+        "#度小满",
+        "#急用钱",
+        "#缺钱",
+        "#资金周转",
+        "#理性借贷"
+      ],
+      "analysis": {
+        "noteCount": 5,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "人情成本",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "急用钱",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 3
+          },
+          {
+            "word": "贷款",
+            "count": 1
+          },
+          {
+            "word": "周转",
+            "count": 1
+          },
+          {
+            "word": "额度",
+            "count": 1
+          }
+        ],
+        "summary": "本轮 5 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      },
+      "score": {
+        "image": 3,
+        "title": 3,
+        "hook": 2,
+        "sellingPoints": 1,
+        "total": 9
+      },
+      "compliance": {
+        "passed": false,
+        "errors": [
+          "正文少于170字"
+        ]
+      }
+    },
+    {
+      "id": "4d3552a1-6501-4f13-8dbe-41114170b60d",
+      "createdAt": "2026-11-25T02:31:38.049Z",
+      "keyword": "借钱",
+      "title": "借钱不求人，周转先看额度💡",
+      "coverText": "急用钱，先把周转空间留出来",
+      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
+      "tags": [
+        "#度小满",
+        "#急用钱",
+        "#缺钱",
+        "#资金周转",
+        "#理性借贷"
+      ],
+      "analysis": {
+        "noteCount": 5,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "人情成本",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "急用钱",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 3
+          },
+          {
+            "word": "贷款",
+            "count": 1
+          },
+          {
+            "word": "周转",
+            "count": 1
+          },
+          {
+            "word": "额度",
+            "count": 1
+          }
+        ],
+        "summary": "本轮 5 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      },
+      "score": {
+        "image": 3,
+        "title": 3,
+        "hook": 2,
+        "sellingPoints": 1,
+        "total": 9
+      },
+      "compliance": {
+        "passed": false,
+        "errors": [
+          "正文少于170字"
+        ]
+      }
+    },
+    {
+      "id": "fcb0558f-832e-43e4-95f7-67fd8325004b",
+      "createdAt": "2026-11-25T02:31:38.039Z",
+      "keyword": "急用钱",
+      "title": "急用钱不求人，周转先看额度💡",
+      "coverText": "急用钱，先把周转空间留出来",
+      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
+      "tags": [
+        "#度小满",
+        "#急用钱",
+        "#缺钱",
+        "#资金周转",
+        "#理性借贷"
+      ],
+      "analysis": {
+        "noteCount": 5,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "人情成本",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "急用钱",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 3
+          },
+          {
+            "word": "贷款",
+            "count": 1
+          },
+          {
+            "word": "周转",
+            "count": 1
+          },
+          {
+            "word": "额度",
+            "count": 1
+          }
+        ],
+        "summary": "本轮 5 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      },
+      "score": {
+        "image": 3,
+        "title": 3,
+        "hook": 2,
+        "sellingPoints": 1,
+        "total": 9
+      },
+      "compliance": {
+        "passed": false,
+        "errors": [
+          "正文少于170字"
+        ]
+      }
+    },
+    {
+      "id": "bdd1f239-e5d9-4baa-a396-631c40532de3",
+      "createdAt": "2026-11-25T02:31:17.249Z",
+      "keyword": "资金周转",
+      "title": "资金周转不求人，周转先看额度💡",
+      "coverText": "急用钱，先把周转空间留出来",
+      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
+      "tags": [
+        "#度小满",
+        "#急用钱",
+        "#缺钱",
+        "#资金周转",
+        "#理性借贷"
+      ],
+      "analysis": {
+        "noteCount": 20,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 15
+          },
+          {
+            "name": "人情成本",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "周转",
+            "count": 12
+          },
+          {
+            "word": "急用钱",
+            "count": 11
+          },
+          {
+            "word": "贷款",
+            "count": 7
+          },
+          {
+            "word": "额度",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 4
+          }
+        ],
+        "summary": "本轮 20 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      },
+      "score": {
+        "image": 3,
+        "title": 3,
+        "hook": 2,
+        "sellingPoints": 1,
+        "total": 9
+      },
+      "compliance": {
+        "passed": false,
+        "errors": [
+          "正文少于170字"
+        ]
+      }
+    },
+    {
+      "id": "ed3da717-8dd1-4d57-9387-b01632291702",
+      "createdAt": "2026-11-25T02:31:17.238Z",
+      "keyword": "缺钱",
+      "title": "缺钱不求人，周转先看额度💡",
+      "coverText": "急用钱，先把周转空间留出来",
+      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
+      "tags": [
+        "#度小满",
+        "#急用钱",
+        "#缺钱",
+        "#资金周转",
+        "#理性借贷"
+      ],
+      "analysis": {
+        "noteCount": 20,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 15
+          },
+          {
+            "name": "人情成本",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "周转",
+            "count": 12
+          },
+          {
+            "word": "急用钱",
+            "count": 11
+          },
+          {
+            "word": "贷款",
+            "count": 7
+          },
+          {
+            "word": "额度",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 4
+          }
+        ],
+        "summary": "本轮 20 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      },
+      "score": {
+        "image": 3,
+        "title": 3,
+        "hook": 2,
+        "sellingPoints": 1,
+        "total": 9
+      },
+      "compliance": {
+        "passed": false,
+        "errors": [
+          "正文少于170字"
+        ]
+      }
+    },
+    {
+      "id": "2a0684d2-219d-4a18-9e26-401a8403ce11",
+      "createdAt": "2026-11-25T02:31:17.217Z",
+      "keyword": "贷款",
+      "title": "贷款不求人，周转先看额度💡",
+      "coverText": "急用钱，先把周转空间留出来",
+      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
+      "tags": [
+        "#度小满",
+        "#急用钱",
+        "#缺钱",
+        "#资金周转",
+        "#理性借贷"
+      ],
+      "analysis": {
+        "noteCount": 20,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 15
+          },
+          {
+            "name": "人情成本",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "周转",
+            "count": 12
+          },
+          {
+            "word": "急用钱",
+            "count": 11
+          },
+          {
+            "word": "贷款",
+            "count": 7
+          },
+          {
+            "word": "额度",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 4
+          }
+        ],
+        "summary": "本轮 20 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      },
+      "score": {
+        "image": 3,
+        "title": 3,
+        "hook": 2,
+        "sellingPoints": 1,
+        "total": 9
+      },
+      "compliance": {
+        "passed": false,
+        "errors": [
+          "正文少于170字"
+        ]
+      }
+    },
+    {
+      "id": "26be0838-1b85-49ec-a376-5b20dd5ab8a2",
+      "createdAt": "2026-11-25T02:31:17.203Z",
+      "keyword": "借钱",
+      "title": "借钱不求人，周转先看额度💡",
+      "coverText": "急用钱，先把周转空间留出来",
+      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
+      "tags": [
+        "#度小满",
+        "#急用钱",
+        "#缺钱",
+        "#资金周转",
+        "#理性借贷"
+      ],
+      "analysis": {
+        "noteCount": 20,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 15
+          },
+          {
+            "name": "人情成本",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "周转",
+            "count": 12
+          },
+          {
+            "word": "急用钱",
+            "count": 11
+          },
+          {
+            "word": "贷款",
+            "count": 7
+          },
+          {
+            "word": "额度",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 4
+          }
+        ],
+        "summary": "本轮 20 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      },
+      "score": {
+        "image": 3,
+        "title": 3,
+        "hook": 2,
+        "sellingPoints": 1,
+        "total": 9
+      },
+      "compliance": {
+        "passed": false,
+        "errors": [
+          "正文少于170字"
+        ]
+      }
+    },
+    {
+      "id": "19a8c9b0-e3ae-4e1d-b5fa-6edd6da252d4",
+      "createdAt": "2026-11-25T02:31:17.185Z",
+      "keyword": "急用钱",
+      "title": "急用钱不求人，周转先看额度💡",
+      "coverText": "急用钱，先把周转空间留出来",
+      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
+      "tags": [
+        "#度小满",
+        "#急用钱",
+        "#缺钱",
+        "#资金周转",
+        "#理性借贷"
+      ],
+      "analysis": {
+        "noteCount": 20,
+        "dominantHook": "场景痛点",
+        "hooks": [
+          {
+            "name": "场景痛点",
+            "count": 15
+          },
+          {
+            "name": "人情成本",
+            "count": 4
+          },
+          {
+            "name": "反常识",
+            "count": 0
+          },
+          {
+            "name": "疑虑解答",
+            "count": 0
+          }
+        ],
+        "keywords": [
+          {
+            "word": "周转",
+            "count": 12
+          },
+          {
+            "word": "急用钱",
+            "count": 11
+          },
+          {
+            "word": "贷款",
+            "count": 7
+          },
+          {
+            "word": "额度",
+            "count": 5
+          },
+          {
+            "word": "借钱",
+            "count": 4
+          }
+        ],
+        "summary": "本轮 20 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
+      },
+      "score": {
+        "image": 3,
+        "title": 3,
+        "hook": 2,
+        "sellingPoints": 1,
+        "total": 9
+      },
+      "compliance": {
+        "passed": false,
+        "errors": [
+          "正文少于170字"
+        ]
+      }
+    },
     {
       "id": "ee9a5115-a4ac-45a5-990f-68502a0615d7",
       "createdAt": "2026-11-24T02:31:19.012Z",
@@ -11242,636 +12679,6 @@
         "passed": true,
         "errors": []
       }
-    },
-    {
-      "id": "18ddfed4-a74e-4d9d-a368-ae289b88e967",
-      "createdAt": "2026-11-19T06:16:33.026Z",
-      "keyword": "资金周转",
-      "title": "资金周转不求人，周转先看额度💡",
-      "coverText": "急用钱，先把周转空间留出来",
-      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
-      "tags": [
-        "#度小满",
-        "#急用钱",
-        "#缺钱",
-        "#资金周转",
-        "#理性借贷"
-      ],
-      "analysis": {
-        "noteCount": 14,
-        "dominantHook": "人情成本",
-        "hooks": [
-          {
-            "name": "人情成本",
-            "count": 2
-          },
-          {
-            "name": "场景痛点",
-            "count": 1
-          },
-          {
-            "name": "反常识",
-            "count": 0
-          },
-          {
-            "name": "疑虑解答",
-            "count": 0
-          }
-        ],
-        "keywords": [
-          {
-            "word": "贷款",
-            "count": 9
-          },
-          {
-            "word": "借钱",
-            "count": 3
-          }
-        ],
-        "summary": "本轮 14 篇笔记以人情成本切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
-      },
-      "score": {
-        "image": 3,
-        "title": 3,
-        "hook": 2,
-        "sellingPoints": 1,
-        "total": 9
-      },
-      "compliance": {
-        "passed": true,
-        "errors": []
-      }
-    },
-    {
-      "id": "d6c8f9e4-e74b-4103-a065-13a4d0fc77ed",
-      "createdAt": "2026-11-19T06:16:33.019Z",
-      "keyword": "缺钱",
-      "title": "缺钱不求人，周转先看额度💡",
-      "coverText": "急用钱，先把周转空间留出来",
-      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
-      "tags": [
-        "#度小满",
-        "#急用钱",
-        "#缺钱",
-        "#资金周转",
-        "#理性借贷"
-      ],
-      "analysis": {
-        "noteCount": 14,
-        "dominantHook": "人情成本",
-        "hooks": [
-          {
-            "name": "人情成本",
-            "count": 2
-          },
-          {
-            "name": "场景痛点",
-            "count": 1
-          },
-          {
-            "name": "反常识",
-            "count": 0
-          },
-          {
-            "name": "疑虑解答",
-            "count": 0
-          }
-        ],
-        "keywords": [
-          {
-            "word": "贷款",
-            "count": 9
-          },
-          {
-            "word": "借钱",
-            "count": 3
-          }
-        ],
-        "summary": "本轮 14 篇笔记以人情成本切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
-      },
-      "score": {
-        "image": 3,
-        "title": 3,
-        "hook": 2,
-        "sellingPoints": 1,
-        "total": 9
-      },
-      "compliance": {
-        "passed": true,
-        "errors": []
-      }
-    },
-    {
-      "id": "656b53a8-4242-4dfb-a4ed-7beb9d07b5d3",
-      "createdAt": "2026-11-19T06:16:33.010Z",
-      "keyword": "贷款",
-      "title": "贷款不求人，周转先看额度💡",
-      "coverText": "急用钱，先把周转空间留出来",
-      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
-      "tags": [
-        "#度小满",
-        "#急用钱",
-        "#缺钱",
-        "#资金周转",
-        "#理性借贷"
-      ],
-      "analysis": {
-        "noteCount": 14,
-        "dominantHook": "人情成本",
-        "hooks": [
-          {
-            "name": "人情成本",
-            "count": 2
-          },
-          {
-            "name": "场景痛点",
-            "count": 1
-          },
-          {
-            "name": "反常识",
-            "count": 0
-          },
-          {
-            "name": "疑虑解答",
-            "count": 0
-          }
-        ],
-        "keywords": [
-          {
-            "word": "贷款",
-            "count": 9
-          },
-          {
-            "word": "借钱",
-            "count": 3
-          }
-        ],
-        "summary": "本轮 14 篇笔记以人情成本切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
-      },
-      "score": {
-        "image": 3,
-        "title": 3,
-        "hook": 2,
-        "sellingPoints": 1,
-        "total": 9
-      },
-      "compliance": {
-        "passed": true,
-        "errors": []
-      }
-    },
-    {
-      "id": "db60bcfe-45c2-458c-a183-163b9b8b647a",
-      "createdAt": "2026-11-19T06:16:32.995Z",
-      "keyword": "借钱",
-      "title": "借钱不求人，周转先看额度💡",
-      "coverText": "急用钱，先把周转空间留出来",
-      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
-      "tags": [
-        "#度小满",
-        "#急用钱",
-        "#缺钱",
-        "#资金周转",
-        "#理性借贷"
-      ],
-      "analysis": {
-        "noteCount": 14,
-        "dominantHook": "人情成本",
-        "hooks": [
-          {
-            "name": "人情成本",
-            "count": 2
-          },
-          {
-            "name": "场景痛点",
-            "count": 1
-          },
-          {
-            "name": "反常识",
-            "count": 0
-          },
-          {
-            "name": "疑虑解答",
-            "count": 0
-          }
-        ],
-        "keywords": [
-          {
-            "word": "贷款",
-            "count": 9
-          },
-          {
-            "word": "借钱",
-            "count": 3
-          }
-        ],
-        "summary": "本轮 14 篇笔记以人情成本切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
-      },
-      "score": {
-        "image": 3,
-        "title": 3,
-        "hook": 2,
-        "sellingPoints": 1,
-        "total": 9
-      },
-      "compliance": {
-        "passed": true,
-        "errors": []
-      }
-    },
-    {
-      "id": "8d5660d0-7ead-484c-8f2a-6ccf34d834b1",
-      "createdAt": "2026-11-19T06:16:32.984Z",
-      "keyword": "急用钱",
-      "title": "急用钱不求人，周转先看额度💡",
-      "coverText": "急用钱，先把周转空间留出来",
-      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
-      "tags": [
-        "#度小满",
-        "#急用钱",
-        "#缺钱",
-        "#资金周转",
-        "#理性借贷"
-      ],
-      "analysis": {
-        "noteCount": 14,
-        "dominantHook": "人情成本",
-        "hooks": [
-          {
-            "name": "人情成本",
-            "count": 2
-          },
-          {
-            "name": "场景痛点",
-            "count": 1
-          },
-          {
-            "name": "反常识",
-            "count": 0
-          },
-          {
-            "name": "疑虑解答",
-            "count": 0
-          }
-        ],
-        "keywords": [
-          {
-            "word": "贷款",
-            "count": 9
-          },
-          {
-            "word": "借钱",
-            "count": 3
-          }
-        ],
-        "summary": "本轮 14 篇笔记以人情成本切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
-      },
-      "score": {
-        "image": 3,
-        "title": 3,
-        "hook": 2,
-        "sellingPoints": 1,
-        "total": 9
-      },
-      "compliance": {
-        "passed": true,
-        "errors": []
-      }
-    },
-    {
-      "id": "d0be2968-f80a-45e4-9710-9ccd7f9baca1",
-      "createdAt": "2026-11-19T06:14:56.785Z",
-      "keyword": "资金周转",
-      "title": "资金周转不求人，周转先看额度💡",
-      "coverText": "急用钱，先把周转空间留出来",
-      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
-      "tags": [
-        "#度小满",
-        "#急用钱",
-        "#缺钱",
-        "#资金周转",
-        "#理性借贷"
-      ],
-      "analysis": {
-        "noteCount": 25,
-        "dominantHook": "场景痛点",
-        "hooks": [
-          {
-            "name": "场景痛点",
-            "count": 8
-          },
-          {
-            "name": "人情成本",
-            "count": 7
-          },
-          {
-            "name": "反常识",
-            "count": 2
-          },
-          {
-            "name": "疑虑解答",
-            "count": 1
-          }
-        ],
-        "keywords": [
-          {
-            "word": "贷款",
-            "count": 16
-          },
-          {
-            "word": "急用钱",
-            "count": 3
-          },
-          {
-            "word": "额度",
-            "count": 3
-          },
-          {
-            "word": "借钱",
-            "count": 2
-          }
-        ],
-        "summary": "本轮 25 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
-      },
-      "score": {
-        "image": 3,
-        "title": 3,
-        "hook": 2,
-        "sellingPoints": 1,
-        "total": 9
-      },
-      "compliance": {
-        "passed": true,
-        "errors": []
-      }
-    },
-    {
-      "id": "73f7d28f-7f5c-4cd0-baef-79a853ef0b5b",
-      "createdAt": "2026-11-19T06:14:56.778Z",
-      "keyword": "缺钱",
-      "title": "缺钱不求人，周转先看额度💡",
-      "coverText": "急用钱，先把周转空间留出来",
-      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
-      "tags": [
-        "#度小满",
-        "#急用钱",
-        "#缺钱",
-        "#资金周转",
-        "#理性借贷"
-      ],
-      "analysis": {
-        "noteCount": 25,
-        "dominantHook": "场景痛点",
-        "hooks": [
-          {
-            "name": "场景痛点",
-            "count": 8
-          },
-          {
-            "name": "人情成本",
-            "count": 7
-          },
-          {
-            "name": "反常识",
-            "count": 2
-          },
-          {
-            "name": "疑虑解答",
-            "count": 1
-          }
-        ],
-        "keywords": [
-          {
-            "word": "贷款",
-            "count": 16
-          },
-          {
-            "word": "急用钱",
-            "count": 3
-          },
-          {
-            "word": "额度",
-            "count": 3
-          },
-          {
-            "word": "借钱",
-            "count": 2
-          }
-        ],
-        "summary": "本轮 25 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
-      },
-      "score": {
-        "image": 3,
-        "title": 3,
-        "hook": 2,
-        "sellingPoints": 1,
-        "total": 9
-      },
-      "compliance": {
-        "passed": true,
-        "errors": []
-      }
-    },
-    {
-      "id": "34528d64-59c0-4006-81a9-cf4f3a1ec981",
-      "createdAt": "2026-11-19T06:14:56.773Z",
-      "keyword": "贷款",
-      "title": "贷款不求人，周转先看额度💡",
-      "coverText": "急用钱，先把周转空间留出来",
-      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
-      "tags": [
-        "#度小满",
-        "#急用钱",
-        "#缺钱",
-        "#资金周转",
-        "#理性借贷"
-      ],
-      "analysis": {
-        "noteCount": 25,
-        "dominantHook": "场景痛点",
-        "hooks": [
-          {
-            "name": "场景痛点",
-            "count": 8
-          },
-          {
-            "name": "人情成本",
-            "count": 7
-          },
-          {
-            "name": "反常识",
-            "count": 2
-          },
-          {
-            "name": "疑虑解答",
-            "count": 1
-          }
-        ],
-        "keywords": [
-          {
-            "word": "贷款",
-            "count": 16
-          },
-          {
-            "word": "急用钱",
-            "count": 3
-          },
-          {
-            "word": "额度",
-            "count": 3
-          },
-          {
-            "word": "借钱",
-            "count": 2
-          }
-        ],
-        "summary": "本轮 25 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
-      },
-      "score": {
-        "image": 3,
-        "title": 3,
-        "hook": 2,
-        "sellingPoints": 1,
-        "total": 9
-      },
-      "compliance": {
-        "passed": true,
-        "errors": []
-      }
-    },
-    {
-      "id": "c287fc85-ea07-41b4-8e7b-f6fad3ed8d7c",
-      "createdAt": "2026-11-19T06:14:56.760Z",
-      "keyword": "借钱",
-      "title": "借钱不求人，周转先看额度💡",
-      "coverText": "急用钱，先把周转空间留出来",
-      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
-      "tags": [
-        "#度小满",
-        "#急用钱",
-        "#缺钱",
-        "#资金周转",
-        "#理性借贷"
-      ],
-      "analysis": {
-        "noteCount": 25,
-        "dominantHook": "场景痛点",
-        "hooks": [
-          {
-            "name": "场景痛点",
-            "count": 8
-          },
-          {
-            "name": "人情成本",
-            "count": 7
-          },
-          {
-            "name": "反常识",
-            "count": 2
-          },
-          {
-            "name": "疑虑解答",
-            "count": 1
-          }
-        ],
-        "keywords": [
-          {
-            "word": "贷款",
-            "count": 16
-          },
-          {
-            "word": "急用钱",
-            "count": 3
-          },
-          {
-            "word": "额度",
-            "count": 3
-          },
-          {
-            "word": "借钱",
-            "count": 2
-          }
-        ],
-        "summary": "本轮 25 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
-      },
-      "score": {
-        "image": 3,
-        "title": 3,
-        "hook": 2,
-        "sellingPoints": 1,
-        "total": 9
-      },
-      "compliance": {
-        "passed": true,
-        "errors": []
-      }
-    },
-    {
-      "id": "5c00293d-e596-4766-b70c-45dbe06923cd",
-      "createdAt": "2026-11-19T06:14:56.751Z",
-      "keyword": "急用钱",
-      "title": "急用钱不求人，周转先看额度💡",
-      "coverText": "急用钱，先把周转空间留出来",
-      "body": "店里赶着补货，回款却还卡在路上，这种时候最怕临时缺钱又欠人情。后来我把重点放在额度和期限上：度小满最高可达20万，最长可分24期；额度不使用不收费，线上可申请。实际额度、期限和放款结果以审批为准，按自己的还款能力理性选择。",
-      "tags": [
-        "#度小满",
-        "#急用钱",
-        "#缺钱",
-        "#资金周转",
-        "#理性借贷"
-      ],
-      "analysis": {
-        "noteCount": 25,
-        "dominantHook": "场景痛点",
-        "hooks": [
-          {
-            "name": "场景痛点",
-            "count": 8
-          },
-          {
-            "name": "人情成本",
-            "count": 7
-          },
-          {
-            "name": "反常识",
-            "count": 2
-          },
-          {
-            "name": "疑虑解答",
-            "count": 1
-          }
-        ],
-        "keywords": [
-          {
-            "word": "贷款",
-            "count": 16
-          },
-          {
-            "word": "急用钱",
-            "count": 3
-          },
-          {
-            "word": "额度",
-            "count": 3
-          },
-          {
-            "word": "借钱",
-            "count": 2
-          }
-        ],
-        "summary": "本轮 25 篇笔记以场景痛点切入最集中，建议保留搜索意图，但更换叙事场景和句式。"
-      },
-      "score": {
-        "image": 3,
-        "title": 3,
-        "hook": 2,
-        "sellingPoints": 1,
-        "total": 9
-      },
-      "compliance": {
-        "passed": true,
-        "errors": []
-      }
     }
   ],
   "settings": {
@@ -11879,10 +12686,12 @@
     "keywords": [
       "借呗",
       "京东金条",
+      "微众银行",
       "借钱",
       "急用钱",
       "贷款",
-      "资金周转"
+      "资金周转",
+      "借钱哪个平台更靠谱"
     ],
     "schedule": "30 10 * * 1-5",
     "timezone": "Asia/Shanghai",
