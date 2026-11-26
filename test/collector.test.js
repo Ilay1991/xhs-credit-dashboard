@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { calculateCes, dedupeGroups, isHotNote, matchesEditorialRules, selectFirstUniqueNotePerGroup } from "../lib/collector.js";
+import { calculateCes, dedupeGroups, isHotNote, matchesEditorialRules, selectUniqueNotesPerGroup } from "../lib/collector.js";
 
 test("competitor analysis keeps positive product content", () => {
   assert.equal(matchesEditorialRules({ title: "借呗怎么用？申请条件和分期体验" }, "借呗"), true);
@@ -32,12 +32,17 @@ test("deduplicates notes globally by id and normalized title", () => {
   assert.deepEqual(groups.map(group => group.notes.map(note => note.id)), [["a"], ["c"]]);
 });
 
-test("keeps the first unique search result in each category", () => {
-  const groups = selectFirstUniqueNotePerGroup([
+test("keeps at most two unique search results in each category", () => {
+  const groups = selectUniqueNotesPerGroup([
     { keyword: "借呗", notes: [{ id: "a", title: "第一条" }, { id: "b", title: "第二条" }] },
-    { keyword: "借钱", notes: [{ id: "a", title: "第一条" }, { id: "c", title: "第三条" }] },
+    { keyword: "借钱", notes: [{ id: "a", title: "第一条" }, { id: "c", title: "第三条" }, { id: "d", title: "第四条" }, { id: "e", title: "第五条" }] },
   ]);
-  assert.deepEqual(groups.map((group) => group.notes.map((note) => note.id)), [["a"], ["c"]]);
+  assert.deepEqual(groups.map((group) => group.notes.map((note) => note.id)), [["a", "b"], ["c", "d"]]);
+});
+
+test("excludes student loan content from the target audience", () => {
+  assert.equal(matchesEditorialRules({ title: "国家助学贷款代偿申请攻略" }, "贷款"), false);
+  assert.equal(matchesEditorialRules({ title: "装修临时缺钱，贷款周转怎么选" }, "贷款"), true);
 });
 
 test("requires real viral interaction before selection", () => {

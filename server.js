@@ -32,6 +32,7 @@ async function runCollection({ headless = false } = {}) {
     const collectedGroups = await collectTopNotes({ keywords: data.settings.keywords, profilePath, headless });
     const groups = await cacheNoteCovers(collectedGroups, path.join(root, "public"));
     const notes = groups.flatMap((group) => group.notes.map((note, index) => ({ ...note, keyword: group.keyword, rank: index + 1 })));
+    if (notes.length < 5) throw new Error(`本轮仅有 ${notes.length} 篇合格素材，未达到 5 篇发布门槛，保留上一版数据`);
     const run = {
       id: crypto.randomUUID(),
       collectedAt: new Date().toISOString(),
