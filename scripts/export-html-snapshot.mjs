@@ -5,12 +5,13 @@ const root = path.resolve(import.meta.dirname, '..');
 const publicDir = path.join(root, 'public');
 const output = path.join(publicDir, '爆款分析工作台.html');
 
-const [index, styles, appSource, features, stateText] = await Promise.all([
+const [index, styles, appSource, features, stateText, searchDemandText] = await Promise.all([
   fs.readFile(path.join(publicDir, 'index.html'), 'utf8'),
   fs.readFile(path.join(publicDir, 'styles.css'), 'utf8'),
   fs.readFile(path.join(publicDir, 'app.js'), 'utf8'),
   fs.readFile(path.join(publicDir, 'features.js'), 'utf8'),
   fs.readFile(path.join(root, 'data', 'store.json'), 'utf8'),
+  fs.readFile(path.join(publicDir, 'search-demand.json'), 'utf8'),
 ]);
 
 const state = JSON.parse(stateText);
@@ -34,7 +35,8 @@ const offlineApi = `async function api(path,opt={}){
 }`;
 const app = appSource.replace(/async function api\(path,opt=\{\}\)\{.*?return b\}/s, offlineApi);
 
-const embeddedScripts = `<script>window.__SNAPSHOT_STATE__=${JSON.stringify(snapshot).replace(/<\/script/gi, '<\\/script')};</script><script type="module">${app}</script><script type="module">${features}</script>`;
+const searchDemand = JSON.parse(searchDemandText);
+const embeddedScripts = `<script>window.__SNAPSHOT_STATE__=${JSON.stringify(snapshot).replace(/<\/script/gi, '<\\/script')};window.__SEARCH_DEMAND__=${JSON.stringify(searchDemand).replace(/<\/script/gi, '<\\/script')};</script><script type="module">${app}</script><script type="module">${features}</script>`;
 let html = index
   .replace('<link rel="stylesheet" href="/styles.css">', () => `<style>${styles}</style>`)
   .replace('<script type="module" src="/app.js"></script><script type="module" src="/features.js"></script>', () => embeddedScripts)

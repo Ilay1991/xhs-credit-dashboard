@@ -8,7 +8,8 @@
     "start": "node server.js",
     "test": "node --test",
     "build:pages": "node scripts/build-pages.mjs",
-    "collect:once": "node scripts/collect-once.mjs"
+    "collect:once": "node scripts/collect-once.mjs",
+    "collect:search-demand": "node scripts/collect-search-suggestions.mjs"
   },
   "dependencies": {
     "compression": "^1.8.2",

@@ -30,13 +30,16 @@ jobs:
       - run: npm run collect:once
         env:
           TIKHUB_API_KEY: ${{ secrets.TIKHUB_API_KEY }}
+      - run: npm run collect:search-demand
+        env:
+          TIKHUB_API_KEY: ${{ secrets.TIKHUB_API_KEY }}
       - run: npm run build:pages
       - name: Save collected materials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add -f data/store.json
-          git add public/note-covers docs/note-covers public/爆款分析工作台.html docs/index.html
+          git add public/note-covers docs/note-covers public/search-demand.json public/爆款分析工作台.html docs/index.html
           git diff --cached --quiet || git commit -m "Automated weekday material refresh"
           git push
 
